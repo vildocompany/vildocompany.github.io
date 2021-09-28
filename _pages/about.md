@@ -5,9 +5,8 @@ excerpt: >
   "Minimal Mistakes is a flexible two-column Jekyll theme." <br />
 
 last_modified_at: 2021-05-11T10:23:16-04:00
----
 font-size: $type-size-4;
-
+---
 Hi! My name is Alvin and I am an engineer that is passionate about data. I am a Civil Engineering undergraduate (Universitas Pelita Harapan, Indonesia).
 
 I pursue my studies in engineering because I like to analyze problems and come up with its solution; for me engineering was a way I could solve real problems.

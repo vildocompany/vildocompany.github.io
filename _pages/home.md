@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/mm-hom e-page-feature.jpg
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-    feature_row:
+feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
     title: "Super customizable"

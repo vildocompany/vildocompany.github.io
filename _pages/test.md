@@ -1,5 +1,5 @@
 ---
-permalink: /test
+permalink: /test/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/2095724.png

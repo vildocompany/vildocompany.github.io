@@ -5,7 +5,7 @@ author_profile: false
 classes: wide
 layout: splash
 header:
-  image: /assets/images/tyler-lastovich-hM08wZJBlK4-unsplash.jpg
+  image: /assets/images/tyler-lastovich-hM08wZJBlK4-unsplash1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 feature_row:

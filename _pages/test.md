@@ -10,28 +10,28 @@ header:
 
 feature_row:
   - image_path: /assets/images/2095724.png
-    alt: "customizable"
-    ## Test
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    alt: "Data Analysis"
+    title: "Data Analysis"
+    excerpt: "Make sense of, transforming, manipulating, and questioning data to find useful information."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: ## "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    alt: "Prediction Model and Machine Learning"
+    title: "Prediction Model"
+    excerpt: "Data engineering, data preprocessing, and designing prediction model with machine learning."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: ## "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    alt: "Spreadsheet"
+    title: "Spreadsheet"
+    excerpt: "Gather, analyze, and report data through spreadsheet."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
-## Projects
+# Projects
 {: style="text-align: center;"}
 
 {% include feature_row %}

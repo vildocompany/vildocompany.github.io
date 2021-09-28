@@ -1,7 +1,7 @@
 ---
 permalink: /test/
 hidden: true
-author_profile: true
+author_profile: false
 header:
   image: /assets/images/tyler-lastovich-hM08wZJBlK4-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

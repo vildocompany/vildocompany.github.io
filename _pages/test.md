@@ -12,7 +12,7 @@ feature_row:
   - image_path: /assets/images/2095724.png
     alt: "Data Analysis"
     title: "Data Analysis"
-    excerpt: "Make sense of, transforming, manipulating, and questioning data to find useful information."
+    excerpt: "Make sense of, transforming, engineering, and questioning data to find useful information."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"

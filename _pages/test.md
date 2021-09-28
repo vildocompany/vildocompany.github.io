@@ -5,9 +5,6 @@ author_profile: false
 header:
   image: /assets/images/tyler-lastovich-hM08wZJBlK4-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-categories:
-  - Layout
-  - Uncategorized
 
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png

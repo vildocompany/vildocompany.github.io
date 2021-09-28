@@ -1,8 +1,8 @@
 ---
-permalink: /test/
+title: "Layout: Header Image (Horizontal)"
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/2095724.png
+  image: /assets/images/2095724.png
+
 categories:
   - Layout
   - Uncategorized
@@ -32,3 +32,5 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+this is a test

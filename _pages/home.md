@@ -33,5 +33,5 @@ feature_row:
 ---
 # Projects
 {: style="text-align: center;"}
-
+---
 {% include feature_row %}

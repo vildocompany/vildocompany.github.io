@@ -3,6 +3,7 @@ permalink: /test/
 hidden: true
 author_profile: false
 classes: wide
+layout: splash
 header:
   image: /assets/images/tyler-lastovich-hM08wZJBlK4-unsplash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

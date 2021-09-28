@@ -11,7 +11,7 @@ header:
 feature_row:
   - image_path: /assets/images/2095724.png
     alt: "customizable"
-    title: ## "Super customizable"
+    ## Test
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/docs/configuration/"
     btn_class: "btn--primary"

@@ -1,4 +1,5 @@
 ---
+permalink: /test/
 title: "Layout: Header Image (Horizontal)"
 header:
   image: /assets/images/2095724.png

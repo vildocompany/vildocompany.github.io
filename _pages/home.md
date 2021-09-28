@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /test
+permalink: /portfolio
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-hom e-page-feature.jpg

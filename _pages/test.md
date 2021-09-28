@@ -1,5 +1,5 @@
 ---
-permalink: /test/
+permalink: /
 hidden: true
 author_profile: false
 classes: wide

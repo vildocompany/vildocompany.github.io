@@ -1,9 +1,10 @@
 ---
 permalink: /test/
 title: "Layout: Header Image (Horizontal)"
+hidden: true
 header:
-  image: /assets/images/2095724.png
-
+  image: /assets/images/tyler-lastovich-hM08wZJBlK4-unsplash.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Layout
   - Uncategorized

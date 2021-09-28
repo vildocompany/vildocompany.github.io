@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : " "
+title                    : "Alvin Giovanni"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Alvin Giovanni"
 description              : "An amazing website."
 url                      : "https://alvingiovanni.github.io"
 baseurl                  : # "/portfolio"

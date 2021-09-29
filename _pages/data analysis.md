@@ -4,6 +4,7 @@ title: "Data Analysis"
 wide: true
 toc: true
 toc_sticky: true
+author_profile: false
 ---
 
 "Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.

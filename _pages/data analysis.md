@@ -1,6 +1,5 @@
 ---
 permalink: /portfolio/data-analysis/
-layout: splash
 title: "Data Analysis"
 wide: true
 toc: true

@@ -1,20 +1,12 @@
 ---
 permalink: /portfolio/data-analysis/
-# title: "Data Analysis"
+title: "Data Analysis"
 wide: true
 toc: true
 toc_sticky: true
 toc_label: "Data Analysis" 
 author_profile: false
 ---
-"Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
-
-```yaml
----
-toc: true
-toc_sticky: true
----
-```
 
 ## HTML Elements
 

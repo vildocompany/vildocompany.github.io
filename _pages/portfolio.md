@@ -1,5 +1,5 @@
 ---
-permalink: /portfolio
+permalink: /portfolio/
 hidden: true
 author_profile: false
 classes: wide

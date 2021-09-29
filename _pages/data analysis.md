@@ -14,7 +14,7 @@ This can be achieved by analysing data and asking the right question; gaining in
 
 # Case Study - Ecommerce Customer Churn Analysis
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+An online retail (E commerce) company wants to know their platform’s user churn condition. They wanted to know when and where people would drop their platform; if there are any clear differences in user characteristics between those who are classified as churn and aren’t.
 
 ## Body text
 

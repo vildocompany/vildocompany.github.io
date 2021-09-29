@@ -25,7 +25,7 @@ Since user churn is basically user retention (they are directly inversely propor
 Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
 
 
-![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
+![Churn-Tenure Chart]({{ site.url }}{{ site.baseurl }}/assets/images/tenure.png)
 {: .image-right}
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.

@@ -4,6 +4,7 @@ title: " "
 wide: true
 toc: true
 toc_sticky: true
+toc_label: " "
 author_profile: false
 ---
 # Data Analysis

@@ -1,6 +1,6 @@
 ---
 permalink: /portfolio/data-analysis/
-title: #
+title: " "
 wide: true
 toc: true
 toc_sticky: true

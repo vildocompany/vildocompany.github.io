@@ -4,9 +4,9 @@ permalink: /portfolio/data-analysis/
 wide: true
 toc: true
 toc_sticky: true
+toc_label: ["Data Analysis"](https://alvingiovanni.github.io/portfolio/data-analysis/#data-analysis
 author_profile: false
 ---
-
 "Stick" table of contents to the top of a page by adding `toc_sticky: true` to its YAML Front Matter.
 
 ```yaml
@@ -15,9 +15,6 @@ toc: true
 toc_sticky: true
 ---
 ```
-# Data Analysis
-
-
 
 ## HTML Elements
 

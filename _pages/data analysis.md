@@ -11,14 +11,18 @@ author_profile: false
 Objective of data analysis is to extract insights from data; then assist in decision-making. 
 
 This can be achieved by analysing data and asking the right question; gaining insights and answers from data.  Everything is then reported and presented with solution recommendation related to the problem at hand.
+
 ---
+
 # Case Study - Ecommerce Customer Churn Analysis
 
 An online retail (E commerce) company wants to know their platform’s user churn condition. They wanted to know when and where people would drop their platform; if there are any clear differences in user characteristics between those who are classified as churn and aren’t.
 
 **Info Notice:** Case is part of a study and 'company' mentioned is fictional; data used is a public data that can be accessed through: [dataset.](https://www.kaggle.com/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction)
 {: .notice--info}
+
 ---
+
 ## Body text
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.

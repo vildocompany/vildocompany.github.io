@@ -20,7 +20,6 @@ An online retail (E commerce) company wants to know their platform’s user chur
 {: .notice--info}
 
 ## Body text
-
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
 ![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)

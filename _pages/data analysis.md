@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 author_profile: false
 ---
-# Data Analysis
+## Data Analysis
 
 test
 
-# HTML Elements
+## HTML Elements
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 

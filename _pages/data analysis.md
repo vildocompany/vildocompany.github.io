@@ -8,9 +8,11 @@ author_profile: false
 ---
 # Data Analysis
 
-test
+Objective of data analysis is to extract insights from data; then assist in decision-making. 
 
-# HTML Elements
+This can be achieved by analysing data and asking the right question; gaining insights and answers from data.  Everything is then reported and presented with solution recommendation related to the problem at hand.
+
+# Case Study
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 

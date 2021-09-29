@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "ASD"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: https://alvingiovanni.github.io/about/
+  - title: "Portfolio"
+    url: https://alvingiovanni.github.io/portfolio/
   # - title: "Sample Posts"
-  #   url: /year-archive/
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

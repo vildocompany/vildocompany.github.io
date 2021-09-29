@@ -19,8 +19,11 @@ An online retail (E commerce) company wants to know their platform’s user chur
 **Info Notice:** Case is part of a study and 'company' mentioned is fictional; data used is a public data that can be accessed through: [dataset.](https://www.kaggle.com/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction)
 {: .notice--info}
 
-## Body text
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+## Analysing User Churn-Tenure Relation
+Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention.
+
+Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
+
 
 ![Smithsonian Image]({{ site.url }}{{ site.baseurl }}/assets/images/3953273590_704e3899d5_m.jpg)
 {: .image-right}

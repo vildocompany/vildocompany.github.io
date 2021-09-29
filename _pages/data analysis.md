@@ -1,10 +1,8 @@
 ---
 permalink: /portfolio/data-analysis/
-title: "Data Analysis"
 wide: true
 toc: true
 toc_sticky: true
-toc_label: "Data Analysis" 
 author_profile: false
 ---
 # Data Analysis

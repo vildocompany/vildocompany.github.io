@@ -23,7 +23,7 @@ The company behind the ecommerce platform wants to know their user churn conditi
 {: .notice--info}
 
 ## Computing Churn Rate
-Starting off, the first thing to do is calculate the overall user churn rate of the company. 
+Starting off, the first thing to do is calculate the overall user churn rate of the company. This is achieved by dividing the total churn user with total user (`churn user / total user`). 
 From the data we gather:
    - Total User: 5630
    - Churn User: 948

@@ -37,6 +37,7 @@ Retention itself is about ‘time frame of a user staying/keep returning’; the
 ![Churn-Tenure Chart]({{ site.url }}{{ site.baseurl }}/assets/images/tenure.png){: .align-center}
 
 Alternatively, the data can also be plotted to represent user retention; if total user in the timeframe is assumed as the initial user count.
+
 [chart]
 
 From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform. This is a recurring problem with digital platforms; that most users are only one-time visitor/customer/etc.

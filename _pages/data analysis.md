@@ -31,6 +31,10 @@ From the data we gather:
    - Churn Rate: 16.84%
    - Retain Rate: 83.16%
 
+> “ . . . there is a global opinion for an ideal churn rate to be 5%.”
+
+Knowing this beforehand gives context to how high/low the company’s current churn rate is.
+
 ## Analysing User Churn-Tenure Relation
 Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention. Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. This means, user churn is directly related with user tenure. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
 

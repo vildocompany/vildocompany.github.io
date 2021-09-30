@@ -51,11 +51,10 @@ Alternatively, the data can also be plotted to represent user retention; if tota
 
 [chart]
 
-From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform. This is a recurring problem with digital platforms; that most users are only one-time visitor/customer/etc.
+From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform. Even though this is a recurring problem with digital platforms, every company are different and it is important to find the specific number. 
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+With this we can split the users into 2 segments: (1) Churn users – users that are churn and on their 0-2 day; (2) Retained users – users that stays for longer.
 
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
 ### Blockquotes
 

@@ -26,8 +26,10 @@ The company behind the ecommerce platform wants to know their user churn conditi
 Starting off, the first thing to do is calculate the overall user churn rate of the company. 
 From the data we gather:
 > Total User: 5630
->Churn User: 948
->Retained User: 4682
+Churn User: 948
+Retained User: 4682
+Churn Rate: 16.84%
+Retain Rate: 83.16%
 
 ## Analysing User Churn-Tenure Relation
 Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention.

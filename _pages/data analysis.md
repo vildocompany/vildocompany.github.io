@@ -24,7 +24,7 @@ Case is part of a study and 'company' mentioned is fictional; data used is a pub
 {: .notice--info}
 
 **Note:**
-This analysis is the first part of a two part project: second part [here].
+This analysis is the first part of a 2-part project: second part [here].
 {: .notice--warning}
 
 ## Computing Churn Rate

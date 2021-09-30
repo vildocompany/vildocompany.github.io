@@ -32,9 +32,7 @@ From the data we gather:
    - Retain Rate: 83.16%
 
 ## Analysing User Churn-Tenure Relation
-Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention.
-
-Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
+Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention. Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. This means, user churn is directly related with user tenure. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
 
 ![Churn-Tenure Chart]({{ site.url }}{{ site.baseurl }}/assets/images/tenure.png){: .align-center}
 

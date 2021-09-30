@@ -51,7 +51,10 @@ Alternatively, the data can also be plotted to represent user retention; if tota
 
 [chart]
 
-From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform. Even though this is a recurring problem with digital platforms, every company are different and it is important to find the specific number. 
+From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform; this is a recurring problem with digital platforms. 
+
+Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities where the problem is at: (1) sales funnel – completing purchase; (2) retention funnel – loyal user conversion. A brief skim through the data shows that all users have a minimum of `1` purchase complete; there are no problem with user’s first-purchase; it is a retention funnel problem.
+
 
 ## Finding User Characteristics
 With the information we get from analysing Churn-Tenure data, we can split the users into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer.

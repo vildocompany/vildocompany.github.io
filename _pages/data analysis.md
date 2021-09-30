@@ -53,7 +53,11 @@ Alternatively, the data can also be plotted to represent user retention; if tota
 
 From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform. Even though this is a recurring problem with digital platforms, every company are different and it is important to find the specific number. 
 
-With this we can split the users into 2 segments: (1) Churn users – users that are churn and on their 0-2 day; (2) Retained users – users that stays for longer.
+## Finding User Characteristics
+With the information we get from analysing Churn-Tenure data, we can split the users into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer.
+
+Using the segments, it is possible to then determine the difference in characteristics of the 2 user segments (Churn User and Retained Users).
+
 
 
 ### Blockquotes

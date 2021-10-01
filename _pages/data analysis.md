@@ -45,11 +45,11 @@ Since user churn is basically user retention (they are directly inversely propor
 
 Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. This means, user churn is directly related with user tenure. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
 
-![Churn-Tenure Chart]({{ site.url }}{{ site.baseurl }}/assets/images/tenure.png){: .align-center}
+![Churn-Tenure Chart]({{ site.url }}{{ site.baseurl }}/assets/images/churn-tenure.png){: .align-center}
 
 Alternatively, the data can also be plotted to represent user retention; if total user in the timeframe is assumed as the initial user count.
 
-[chart]
+![Retention Chart]({{ site.url }}{{ site.baseurl }}/assets/images/retention.png){: .align-center}
 
 From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform; this is a recurring problem with digital platforms. 
 

@@ -77,6 +77,17 @@ To help with determining which feature to analyse, using correlation heatmap cou
 
 {% include gallery caption="*The correlation results thats closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
 
+From the correlation calculation there are few notable features, solely based on correlation score:
+
+1. Preferred Order Category (0.33)
+2. Cashback Amount (0.24)
+3. Complain (0.22)
+4. Marital Status (0.20)
+5. Preferred Login Device (0.19)
+
+However, choosing features solely based on correlation is not advisable. For example feature like `Maritas Status` is something that's innate to customer and there is no action that could be taken. On the contrary, features like `Satisfaction Score` or `Hours Spend on App` are interesting features/characteristics of users that are related to how the user perceive the platform.
+
+
 ### Blockquotes
 
 > Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.

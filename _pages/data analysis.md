@@ -57,7 +57,7 @@ Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities
 
 
 ## Finding User Characteristics
-With the information we get from analysing Churn-Tenure data, we can split the users into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer. Using the segments as a base to then analyse user characteristics.
+With the information attaimed from analysing Churn-Tenure data, users can be split into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer. Using the segments as a base to then analyse user characteristics.
 
 
 

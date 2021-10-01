@@ -40,7 +40,8 @@ From the data we gather:
 
 Knowing this beforehand gives context to how high/low the company’s current churn rate is.
 
-## Analysing User Churn-Tenure Relation
+# Analysing User Churn-Tenure Relation
+---
 Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention. 
 
 Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. This means, user churn is directly related with user tenure. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
@@ -56,8 +57,13 @@ From the chart above, it is clear that **a lot** of churn users are on their 0-2
 Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities where the problem is at: (1) sales funnel – completing purchase; (2) retention funnel – loyal user conversion. A brief skim through the data shows that all users have a minimum of `1` purchase complete; there are no problem with user’s first-purchase; it is a retention funnel problem.
 
 
-## Finding User Characteristics
+# Finding User Characteristics
+---
 With the information attaimed from analysing Churn-Tenure data, users can be split into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer. Using the segments as a base to then analyse user characteristics.
+
+## **Correlation**
+To help with determining which feature to analyse, using correlation heatmap could help in checking each feature's correlation with target. ince the data's features are a mix of numerical and categorical value, there is a need to separate both types to their own dataframe and calculate their correlation separately. Uing Pearson’s Correlation for numerical data; Chi-Squared method for categorical data.
+
 
 
 

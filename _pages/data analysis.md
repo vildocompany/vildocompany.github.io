@@ -85,7 +85,7 @@ From the correlation calculation there are few notable features, solely based on
 4. Marital Status (0.20)
 5. Preferred Login Device (0.19)
 
-However, choosing features solely based on correlation is not advisable. For example feature like `Maritas Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics of users that are related to how the user perceive the platform.
+However, choosing features solely based on correlation is not advisable. For example feature like `Marital Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics of users that are related to how the user perceive the platform.
 
 
 ### Blockquotes

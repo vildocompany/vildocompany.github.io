@@ -81,6 +81,7 @@ Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities
 With the information attained from analysing Churn-Tenure data, the users can be split into 2 segments: 
 - Churn Users: users that are churn and on their 0-2 day; 
 - Retained Users: users that stays for longer. 
+
 Going forward **‘Segment’** will refer to this segmentation and used as a base to analyse user characteristics.
 
 ## **Correlation**

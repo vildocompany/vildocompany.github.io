@@ -78,7 +78,10 @@ Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities
 
 # Finding User Characteristics
 ---
-With the information attained from analysing Churn-Tenure data, the users can be split into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer. Going forward **‘Segment’** will refer to this segmentation and used as a base to analyse user characteristics.
+With the information attained from analysing Churn-Tenure data, the users can be split into 2 segments: 
+- Churn Users: users that are churn and on their 0-2 day; 
+- Retained Users: users that stays for longer. 
+Going forward **‘Segment’** will refer to this segmentation and used as a base to analyse user characteristics.
 
 ## **Correlation**
 To help with determining which feature to analyse, using correlation heatmap could help in checking each feature's correlation with target. ince the data's features are a mix of numerical and categorical value, there is a need to separate both types to their own dataframe and calculate their correlation separately. Uing Pearson’s Correlation for numerical data; Chi-Squared method for categorical data.

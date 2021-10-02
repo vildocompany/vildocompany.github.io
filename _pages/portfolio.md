@@ -1,5 +1,6 @@
 ---
 permalink: /portfolio/
+hidden: false
 title: "Porfolio"
 author_profile: false
 layout: splash

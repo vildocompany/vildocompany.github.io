@@ -4,7 +4,7 @@ hidden: true
 author_profile: false
 classes: wide
 layout: splash
-title: Portfolio
+title: "Portfolio"
 feature_row:
   - image_path: /assets/images/2095724.png
     alt: "Data Analysis"

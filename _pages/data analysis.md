@@ -95,7 +95,7 @@ Correlation is by no means equal or the same as causation. This [article](https:
 
 {% include gallery id="gallery2" caption="*Full correlation chart for reference.*" %}
 
-From the correlation calculation there are few notable features, solely based on correlation score:
+From the correlation calculation, top 5 features with highest correlation are:
 
 1. Preferred Order Category (0.33)
 2. Cashback Amount (0.24)

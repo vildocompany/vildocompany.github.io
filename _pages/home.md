@@ -5,7 +5,7 @@ author_profile: false
 classes: wide
 layout: splash
 header:
-  image: /assets/images/splash-background
+  image: /assets/images/splash-backgrounddddd.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 feature_row:

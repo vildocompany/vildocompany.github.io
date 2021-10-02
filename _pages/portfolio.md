@@ -27,7 +27,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
-# 
+---
 # Portfolio
+{: style="text-align: center;"}
 ---
 {% include feature_row %}

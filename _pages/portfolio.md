@@ -1,8 +1,7 @@
 ---
 permalink: /portfolio/
-hidden: true
+title: "Porfolio"
 author_profile: false
-classes: wide
 layout: splash
 feature_row:
   - image_path: /assets/images/2095724.png
@@ -28,7 +27,5 @@ feature_row:
     btn_label: "Learn more"      
 ---
 
-# Portfolio
-{: style="text-align: center;"}
 ---
 {% include feature_row %}

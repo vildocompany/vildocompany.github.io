@@ -87,9 +87,9 @@ To help with determining which feature to analyse, using correlation heatmap cou
 Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlatoin vs. causation.
 {: .notice--warning}
 
-{% include gallery caption="*The correlation results thats closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
+{% include gallery caption="*The correlation results that are closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
 
-{% include gallery id="gallery2" caption="*Full correlation chart for reference." %}
+{% include gallery id="gallery2" caption="*Full correlation chart for reference.*" %}
 
 From the correlation calculation there are few notable features, solely based on correlation score:
 

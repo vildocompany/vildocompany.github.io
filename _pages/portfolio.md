@@ -4,7 +4,7 @@ hidden: true
 author_profile: false
 classes: wide
 layout: splash
-
+title: Portfolio
 feature_row:
   - image_path: /assets/images/2095724.png
     alt: "Data Analysis"
@@ -28,7 +28,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
-# Portfolio
+
 {: style="text-align: center;"}
 ---
 {% include feature_row %}

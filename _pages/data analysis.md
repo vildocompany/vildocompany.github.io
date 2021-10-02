@@ -70,10 +70,14 @@ Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities
 
 # Finding User Characteristics
 ---
-With the information attaimed from analysing Churn-Tenure data, users can be split into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer. Using the segments as a base to then analyse user characteristics.
+With the information attained from analysing Churn-Tenure data, the users can be split into 2 segments: (1) Churn Users – users that are churn and on their 0-2 day; (2) Retained Users – users that stays for longer. Going forward **‘Segment’** will refer to this segmentation and used as a base to analyse user characteristics.
 
 ## **Correlation**
 To help with determining which feature to analyse, using correlation heatmap could help in checking each feature's correlation with target. ince the data's features are a mix of numerical and categorical value, there is a need to separate both types to their own dataframe and calculate their correlation separately. Uing Pearson’s Correlation for numerical data; Chi-Squared method for categorical data.
+
+**Note:**
+Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlatoin vs. causation.
+{: .notice--warning}
 
 {% include gallery caption="*The correlation results thats closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
 
@@ -87,6 +91,9 @@ From the correlation calculation there are few notable features, solely based on
 
 However, choosing features solely based on correlation is not advisable. For example feature like `Marital Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics of users that are related to how the user perceive the platform.
 
+**Note:**
+Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlatoin vs. causation.
+{: .notice--warning}
 
 ### Blockquotes
 

@@ -1,7 +1,7 @@
 ---
 permalink: /portfolio/
-hidden: false
 title: "Porfolio"
+masthead_title: "Portfolio"
 author_profile: false
 layout: splash
 feature_row:

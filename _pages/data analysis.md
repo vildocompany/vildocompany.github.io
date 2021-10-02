@@ -15,7 +15,15 @@ gallery:
     image_path: /assets/images/categorical%20correlation.png
     alt: "categorical correlation"
     title: "Categorical Correlation"
-
+gallery2:
+  - url: /assets/images/numerical-correlation-full.png
+    image_path: /assets/images/numerical-correlation-full.png
+    alt: "numerical correlation full"
+    title: "Numerical Correlation Full"
+  - url: /assets/images/categorical-correlation-full.png
+    image_path: /assets/images/categorical-correlation-full.png
+    alt: "categorical correlation full"
+    title: "Categorical Correlation Full"
 ---
 # Data Analysis
 ---
@@ -80,6 +88,8 @@ Correlation is by no means equal or the same as causation. This [article](https:
 {: .notice--warning}
 
 {% include gallery caption="*The correlation results thats closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
+
+{% include gallery id="gallery2" caption="*Full correlation chart for reference." %}
 
 From the correlation calculation there are few notable features, solely based on correlation score:
 

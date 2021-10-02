@@ -105,9 +105,7 @@ From the correlation calculation, top 5 features with highest correlation are:
 
 However, choosing features solely based on correlation is not advisable. For example feature like `Marital Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics of users that are related to how the user perceive the platform.
 
-**Note:**
-Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlatoin vs. causation.
-{: .notice--warning}
+## 
 
 ### Blockquotes
 

@@ -2,7 +2,10 @@
 title: "Splash Page"
 layout: splash
 permalink: /test/
-
+header:
+  overlay_color: "#FFFFFF"
+  overlay_filter: "0.5"
+  
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"

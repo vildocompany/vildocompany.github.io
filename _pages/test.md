@@ -3,7 +3,6 @@ title: "Splash Page"
 layout: splash
 permalink: /test/
 header:
-  overlay_color: "#FFF"
   
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg

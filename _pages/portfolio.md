@@ -28,7 +28,6 @@ feature_row:
     btn_label: "Learn more"      
 ---
 
-# 
 # Portfolio
 {: style="text-align: center;"}
 ---

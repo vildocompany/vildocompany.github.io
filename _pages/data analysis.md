@@ -188,7 +188,7 @@ Having analysing and gaining insights from the selected features, it is importan
 First to check is 'Preferred Order Category', this feature doesnt give enough information on why users tend to churn more if they prefer to order on certain category.
 1. 'Preferred Order Category' vs. 'Cashback Amount'
 
-| Preferred Order Category | Cashback Amount (Churn) | Cashback Amount (Retained){: style="text-align: center;"} |
+| Preferred Order Category | Cashback Amount (Churn) | Cashback Amount (Retained) |
 |:--------|:-------:|-------:|
 | Others | - | 304.42 |
 | Grocery | 221.69 | 267.32 |

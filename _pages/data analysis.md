@@ -135,8 +135,20 @@ The chart above shows the distribution of ‘Cashback’ gained by the users; ch
 To help visualize the distribution, the boxplot above shows that retained users tend to have higher cashback gained. The median cashback of retained users are significantly higher than churn users, going above churn user’s cashback on Q3. 
 
 ### Order Count
+---
+This data tells how many separate orders have been placed by the user in the previous month. The fact previously stated that all users have completed their first purchase is based on this data. 
+
 ![Order Count Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-count.png){: .align-center}
+
+From the distribution there are no clear difference between churn and retained user’s order count. Both segments’ users are leaning towards 1-2 orders and then fall off on higher order count.
+
 ![Order Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-spread.png){: .align-center}
+
+The boxplot confirms what the distribution plot shows; that churn and retained users have tendencies of 1-2 order count, however retained users lean more to order more (positively skewed). 
+
+### Hour Spend on App
+![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}
+
 
 ### Hour Spend on App
 ![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}

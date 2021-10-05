@@ -196,6 +196,7 @@ First to check is 'Preferred Order Category', this feature doesnt give enough in
 | Fashion | 206.29 | 211.47 |
 | Mobile Phone | 141.35 | 144.21 |
 |=====
+{: style="text-align: center;"}
 
 ### Blockquotes
 

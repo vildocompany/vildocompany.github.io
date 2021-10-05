@@ -167,6 +167,7 @@ Most of the users spend on average 3 hours using the platform. On the exception 
 ### Complain
 ---
 The complain recorded are only if users have done any complain during the past month; there are no count of how many complain has been filed. 
+
 ![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/complain.png){: .align-center}
 
 On the chart above it is instantly clear that users that hasn’t filed any complain have a very high retained percentage; which is very intuitive. Using the same data but visualizing it differently, the chart below shows that churn users’ tendency to complain is very high >50%.
@@ -181,6 +182,20 @@ Satisfaction score that is recorded is only about the satisfactory score of cust
 
 The results are quite questionable; where the pattern shows that the higher satisfaction score actually have high churn rate; its very counter-intuitive.
 
+## Cross Referencing Features
+Having analysing and gaining insights from the selected features, it is important to then cross referencing the findings across features. This way it is possible to gain more insights and find out relationships between insights.
+
+First to check is 'Preferred Order Category', this feature doesnt give enough information on why users tend to churn more if they prefer to order on certain category.
+1. 'Preferred Order Category' vs. 'Cashback Amount'
+
+| Preferred Order Category | Cashback Amount (Churn) | Cashback Amount (Retained) |
+|:--------|:-------:|--------:|
+| Others | cell2   | cell3   |
+| Grocery | cell5   | cell6   |
+| Laptop & Accesory | cell5   | cell6   |
+| Fashion | cell5   | cell6   |
+| Mobile Phone | cell5   | cell6   |
+|=====
 
 ### Blockquotes
 
@@ -208,11 +223,9 @@ The results are quite questionable; where the pattern shows that the higher sati
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
-|----
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
 |=====
-| Foot1   | Foot2   | Foot3
 {: rules="groups"}
 
 ## Code Snippets

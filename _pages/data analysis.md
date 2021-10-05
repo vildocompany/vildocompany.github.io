@@ -208,3 +208,9 @@ The major insights that have been gathered, the characteristics of users that wi
 4.	Did not file any complain.
 These points then could be defined as the platform’s “Aha! Moment”, a set of actions or characteristics that separates users who find value and will stay (retained) on the platform from those who won’t. 
 
+# Recommendations
+All the characteristics from the defined “Aha! Moment” are around the initial engagement when users newly joined the platform; the recommendation then will address this accordingly.
+1.	First thing is to guide users to explore more of the platform, to enable them to check on different categories. This could be achieved through a lot of ways, the simplest one is to introduce the platform to new users through a tutorial. The tutorial will be focused on exploring how to use the platform’s app, features and the categories available. Having a simple tutorial like this will also indirectly make users spend more time on the app. Accordingly, users going through tutorial would help the users to understand more of the platform which could reduce the likeliness of complain being filed.
+2.	Second is to promote users to spend more, do more purchase, or use more cashback. Following up from the tutorial, with the user exploring more of the platform, it is possible to then design a recommendation system based on the user’s behaviour on their tutorial. With this, the user would then lean towards spending more based on the recommendation that fits them. 
+
+

@@ -190,3 +190,5 @@ First to check is 'Preferred Order Category', this feature doesnt give enough in
 ![PreferredCat Cashback]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatcashback.png){: .align-center}
  2. Preferred Order Category vs. Order Count
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-center}
+
+![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-center}

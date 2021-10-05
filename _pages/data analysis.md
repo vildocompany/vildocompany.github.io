@@ -198,3 +198,13 @@ The feature that needs to be cross-referenced is 'Preferred Order Category' with
 3. Preferred Order Category’ vs. ‘Hour Spend on App
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcathour.png){: .align-left}
 -	While category with higher churn rate have lower hour spend on app, the difference is negligible and doesn’t mean anything. 
+
+## Conclusion – “Aha! Moment”
+From gathering all the insights, it is possible then to determine user characteristic towards the target, churn. However, instead of defining the characteristics of users that have churn tendency; defining users that will retain will be more engaging.
+The major insights that have been gathered, the characteristics of users that will retain are:
+1.	Complete order on more than 1 category.
+2.	Gained >170 cashback from purchases; this also reflects to the total spending amount. (e.g. in this case if cashback is 10% then the total spending would be 1700).
+3.	Spends >1 hour on the platform.
+4.	Did not file any complain.
+These points then could be defined as the platform’s “Aha! Moment”, a set of actions or characteristics that separates users who find value and will stay (retained) on the platform from those who won’t. 
+

@@ -175,7 +175,12 @@ On the chart above it is instantly clear that users that hasn’t filed any comp
 
 
 ### Satisfaction Score
+Satisfaction score that is recorded is only about the satisfactory score of customer service; not totally unrelated to the company, but it is unrelated towards the platform’s performance.
+
 ![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/satisfaction-score.png){: .align-center}
+
+The results are quite questionable; where the pattern shows that the higher satisfaction score actually have high churn rate; its very counter-intuitive.
+
 
 ### Blockquotes
 

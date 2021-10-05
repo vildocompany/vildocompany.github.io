@@ -186,10 +186,10 @@ The results are quite questionable; where the pattern shows that the higher sati
 Having analysing and gaining insights from the selected features, it is important to then cross referencing the findings across features. This way it is possible to gain more insights and find out relationships between insights.
 
 First to check is 'Preferred Order Category', this feature doesnt give enough information on why users tend to churn more if they prefer to order on certain category.
-1. Preferred Order Category vs. Cashback Amount
+ 1. Preferred Order Category vs. Cashback Amount
 
 ![PreferredCat Cashback]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatcashback.png){: .align-center}
 
-2. Preferred Order Category vs. Order Count
+ 2. Preferred Order Category vs. Order Count
 
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-center}

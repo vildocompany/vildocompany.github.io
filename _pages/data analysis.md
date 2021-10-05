@@ -31,6 +31,7 @@ Objective of data analysis is to extract insights from data; then assist in deci
 
 This can be achieved by analysing data and asking the right question; gaining insights and answers from data.  Everything is then reported and presented with solution recommendation related to the problem at hand.
 
+
 # Case Study - Ecommerce Customer Churn Analysis
 ---
 So, what is churn?
@@ -46,6 +47,7 @@ Case is part of a study and 'company' mentioned is fictional; data used is a pub
 This analysis is the first part of a 2-part project: second part [here].
 {: .notice--warning}
 
+
 # Computing Churn Rate
 Starting off, the first thing to do is calculate the overall user churn rate of the company. This is achieved by dividing the total churn user with total user (`churn user / total user`). 
 From the data we gather:
@@ -58,6 +60,7 @@ From the data we gather:
 > “ . . . there is a global opinion for an ideal churn rate to be 5%.”
 
 Knowing this beforehand gives context to how high/low the company’s current churn rate is.
+
 
 # Analysing User Churn-Tenure Relation
 ---
@@ -84,6 +87,7 @@ With the information attained from analysing Churn-Tenure data, the users can be
 
 Going forward **‘Segment’** will refer to this segmentation and used as a base to analyse user characteristics.
 
+
 ## **Correlation**
 To help with determining which feature to analyse, using correlation heatmap could help in checking each feature's correlation with target. ince the data's features are a mix of numerical and categorical value, there is a need to separate both types to their own dataframe and calculate their correlation separately. Uing Pearson’s Correlation for numerical data; Chi-Squared method for categorical data.
 
@@ -105,6 +109,7 @@ From the correlation calculation, top 5 features with highest correlation are:
 
 However, choosing features solely based on correlation is not advisable. For example feature like `Marital Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics that are related to how the user perceive/use the platform.
 
+
 ## Features Analysis
 Considering how much a feature is relatable to the target (churn) and their correlation score, the selected features are:
 1.	Preferred Order Category
@@ -114,6 +119,7 @@ Considering how much a feature is relatable to the target (churn) and their corr
 5.	Complain
 6.	Satisfaction Score
 
+
 ### Preferred Order Category
 ---
 As defined by the dataset, this feature shows what is the preferred order category of customer in last month. From this feature we can gather which category is popular and what are the user’s churn tendencies based on that.
@@ -121,6 +127,7 @@ As defined by the dataset, this feature shows what is the preferred order catego
 ![Preferred Category Chart]({{ site.url }}{{ site.baseurl }}/assets/images/preferred-category.png){: .align-center}
 
 From the chart it is clear that the category ‘Laptop & Accessory’ is by far the most popular; ‘Mobile Phone’ has the highest churn tendencies.
+
 
 ### Cashback Amount
 ---
@@ -134,6 +141,7 @@ The chart above shows the distribution of ‘Cashback’ gained by the users; ch
 
 To help visualize the distribution, the boxplot above shows that retained users tend to have higher cashback gained. The median cashback of retained users are significantly higher than churn users, going above churn user’s cashback on Q3. 
 
+
 ### Order Count
 ---
 This data tells how many separate orders have been placed by the user in the previous month. The fact previously stated that all users have completed their first purchase is based on this data. 
@@ -146,12 +154,15 @@ From the distribution there are no clear difference between churn and retained u
 
 The boxplot confirms what the distribution plot shows; that churn and retained users have tendencies of 1-2 order count, however retained users lean more to order more (positively skewed). 
 
-### Hour Spend on App
-![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}
-
 
 ### Hour Spend on App
+---
+Hour spend on app depicts how the user based is using the platform (app and website); how long do users use the platform on average. This feature can show how engaged the users are when they are using the platform.
+
 ![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}
+
+Most of the users spend on average 3 hours using the platform. On the exception on users that spend <0 hours on the platform; there are no clear pattern on how hours spend on platform would affect user’s churn or retention
+
 
 ### Complain
 ![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/complain.png){: .align-center}

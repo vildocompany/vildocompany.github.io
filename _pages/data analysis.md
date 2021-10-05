@@ -123,9 +123,17 @@ As defined by the dataset, this feature shows what is the preferred order catego
 From the chart it is clear that the category ‘Laptop & Accessory’ is by far the most popular; ‘Mobile Phone’ has the highest churn tendencies.
 
 ### Cashback Amount
+---
+This feature shows how much cashback has been gained by the user on the pass month. Since there is no data on user’s spending, we can use user’s cashback gained to assume their spending. Higher cashback gain means more spending.
+
 ![Cashback Amount Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback.png){: .align-center}
+
+The chart above shows the distribution of ‘Cashback’ gained by the users; churn users have a lower peak cashback gained and the fall off from its peak is steep (concave parabolic); retained users have a higher peak cashback gained and the fall off from its peak is more linear.
+
 ![Cashback Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback-spread.png){: .align-center}
- 
+
+To help visualize the distribution, the boxplot above shows that retained users tend to have higher cashback gained. The median cashback of retained users are significantly higher than churn users, going above churn user’s cashback on Q3. 
+
 ### Order Count
 ![Order Count Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-count.png){: .align-center}
 ![Order Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-spread.png){: .align-center}

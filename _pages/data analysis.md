@@ -189,12 +189,12 @@ First to check is 'Preferred Order Category', this feature doesnt give enough in
 1. 'Preferred Order Category' vs. 'Cashback Amount'
 
 | Preferred Order Category | Cashback Amount (Churn) | Cashback Amount (Retained) |
-|:--------|:-------:|--------:|
-| Others | cell2   | cell3   |
-| Grocery | cell5   | cell6   |
-| Laptop & Accesory | cell5   | cell6   |
-| Fashion | cell5   | cell6   |
-| Mobile Phone | cell5   | cell6   |
+|:--------|:-------:|-------:|
+| Others | - | 304.42 |
+| Grocery | 221.69 | 267.32 |
+| Laptop & Accessory | 169.31 | 167.86 |
+| Fashion | 206.29 | 211.47 |
+| Mobile Phone | 141.35 | 144.21 |
 |=====
 
 ### Blockquotes

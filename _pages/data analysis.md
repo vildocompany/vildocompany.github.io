@@ -135,7 +135,7 @@ This feature shows how much cashback has been gained by the user on the pass mon
 
 ![Cashback Amount Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback.png){: .align-center}
 
-The chart above shows the distribution of ‘Cashback’ gained by the users; churn users have a lower peak cashback gained and the fall off from its peak is steep (concave parabolic); retained users have a higher peak cashback gained and the fall off from its peak is more linear.
+The chart above shows the distribution of cashback gained by the users; churn users have a lower peak cashback gained and the fall off from its peak is steep (concave parabolic); retained users have a higher peak cashback gained and the fall off from its peak is more linear.
 
 ![Cashback Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback-spread.png){: .align-center}
 
@@ -185,9 +185,11 @@ The results are quite questionable; where the pattern shows that the higher sati
 ## Cross Referencing Features
 Having analysing and gaining insights from the selected features, it is important to then cross referencing the findings across features. This way it is possible to gain more insights and find out relationships between insights.
 
-First to check is 'Preferred Order Category', analysing this feature didn’t give enough information on why users tend to churn more if they prefer to order on certain category.
+First to check is `PreferredOrder Category`, analysing this feature didn’t give enough information on why users tend to churn more if they prefer to order on certain category.
 1. Preferred Order Category vs. Cashback Amount
 ![PreferredCat Cashback]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatcashback.png){: .align-left}
+-	Average cashback amount on ‘Mobile Phone’ category is very close with the average cashback amount of users with churn tendency (148.98	and 144.21 respectively).
+-	The other categories’ average cashback amount is closer to the average cashback amount of users with retained tendency (173.41 and 167.86 respectively).
 2. Preferred Order Category vs. Order Count
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-left}
 3. Preferred Order Category’ vs. ‘Hour Spend on App

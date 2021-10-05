@@ -191,4 +191,3 @@ First to check is 'Preferred Order Category', this feature doesnt give enough in
  2. Preferred Order Category vs. Order Count
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-center}
 
-![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-center}

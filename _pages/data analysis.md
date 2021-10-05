@@ -32,7 +32,7 @@ Objective of data analysis is to extract insights from data; then assist in deci
 This can be achieved by analysing data and asking the right question; gaining insights and answers from data.  Everything is then reported and presented with solution recommendation related to the problem at hand.
 
 
-# Case Study - Ecommerce Customer Churn Analysis
+# Case Study - Ecommerce Churn Analysis
 ---
 So, what is churn?
 Churn is defined as ‘number of users that has stopped using a service; in this case the service is ecommerce platform. 

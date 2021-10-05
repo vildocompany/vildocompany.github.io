@@ -105,7 +105,34 @@ From the correlation calculation, top 5 features with highest correlation are:
 
 However, choosing features solely based on correlation is not advisable. For example feature like `Marital Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics that are related to how the user perceive/use the platform.
 
+## Features Analysis
+Considering how much a feature is relatable to the target (churn) and their correlation score, the selected features are:
+1.	Preferred Order Category
+2.	Cashback Amount
+3.	Order Count
+4.	Hour Spend on App
+5.	Complain
+6.	Satisfaction Score
+
+### Preferred Order Category
+![Preferred Category Chart]({{ site.url }}{{ site.baseurl }}/assets/images/preferred-category.png){: .align-center}
+
+### Cashback Amount
+![Cashback Amount Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback.png){: .align-center}
+![Cashback Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback-spread.png){: .align-center}
  
+### Order Count
+![Order Count Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-count.png){: .align-center}
+![Order Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-spread.png){: .align-center}
+
+### Hour Spend on App
+![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}
+
+### Complain
+![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/complain.png){: .align-center}
+
+### Satisfaction Score
+![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/satisfaction-score.png){: .align-center}
 
 ### Blockquotes
 

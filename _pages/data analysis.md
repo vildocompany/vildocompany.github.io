@@ -49,6 +49,7 @@ This analysis is the first part of a 2-part project: second part [here].
 
 
 # Computing Churn Rate
+---
 Starting off, the first thing to do is calculate the overall user churn rate of the company. This is achieved by dividing the total churn user with total user (`churn user / total user`). 
 From the data we gather:
    - Total User: 5630
@@ -121,7 +122,6 @@ Considering how much a feature is relatable to the target (churn) and their corr
 
 
 ### Preferred Order Category
----
 As defined by the dataset, this feature shows what is the preferred order category of customer in last month. From this feature we can gather which category is popular and what are the user’s churn tendencies based on that.
 
 ![Preferred Category Chart]({{ site.url }}{{ site.baseurl }}/assets/images/preferred-category.png){: .align-center}
@@ -130,7 +130,6 @@ From the chart it is clear that the category ‘Laptop & Accessory’ is by far 
 
 
 ### Cashback Amount
----
 This feature shows how much cashback has been gained by the user on the pass month. Since there is no data on user’s spending, we can use user’s cashback gained to assume their spending. Higher cashback gain means more spending.
 
 ![Cashback Amount Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback.png){: .align-center}
@@ -143,7 +142,6 @@ To help visualize the distribution, the boxplot above shows that retained users 
 
 
 ### Order Count
----
 This data tells how many separate orders have been placed by the user in the previous month. The fact previously stated that all users have completed their first purchase is based on this data. 
 
 ![Order Count Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-count.png){: .align-center}
@@ -156,7 +154,6 @@ The boxplot confirms what the distribution plot shows; that churn and retained u
 
 
 ### Hour Spend on App
----
 Hour spend on app depicts how the user based is using the platform (app and website); how long do users use the platform on average. This feature can show how engaged the users are when they are using the platform.
 
 ![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}
@@ -165,7 +162,6 @@ Most of the users spend on average 3 hours using the platform. On the exception 
 
 
 ### Complain
----
 The complain recorded are only if users have done any complain during the past month; there are no count of how many complain has been filed. 
 
 ![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/complain.png){: .align-center}
@@ -209,6 +205,7 @@ The major insights that have been gathered, the characteristics of users that wi
 These points then could be defined as the platform’s “Aha! Moment”, a set of actions or characteristics that separates users who find value and will stay (retained) on the platform from those who won’t. 
 
 # Recommendations
+---
 All the characteristics from the defined “Aha! Moment” are around the initial engagement when users newly joined the platform; the recommendation then will address this accordingly.
 1.	First thing is to guide users to explore more of the platform, to enable them to check on different categories. This could be achieved through a lot of ways, the simplest one is to introduce the platform to new users through a tutorial. The tutorial will be focused on exploring how to use the platform’s app, features and the categories available. Having a simple tutorial like this will also indirectly make users spend more time on the app. Accordingly, users going through tutorial would help the users to understand more of the platform which could reduce the likeliness of complain being filed.
 2.	Second is to promote users to spend more, do more purchase, or use more cashback. Following up from the tutorial, with the user exploring more of the platform, it is possible to then design a recommendation system based on the user’s behaviour on their tutorial. With this, the user would then lean towards spending more based on the recommendation that fits them. 

@@ -92,7 +92,7 @@ Going forward **‘Segment’** will refer to this segmentation and used as a ba
 To help with determining which feature to analyse, using correlation heatmap could help in checking each feature's correlation with target. ince the data's features are a mix of numerical and categorical value, there is a need to separate both types to their own dataframe and calculate their correlation separately. Uing Pearson’s Correlation for numerical data; Chi-Squared method for categorical data.
 
 **Note:**
-Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlatoin vs. causation.
+Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlation vs. causation.
 {: .notice--warning}
 
 {% include gallery caption="*The correlation results that are closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
@@ -165,7 +165,14 @@ Most of the users spend on average 3 hours using the platform. On the exception 
 
 
 ### Complain
+---
+The complain recorded are only if users have done any complain during the past month; there are no count of how many complain has been filed. 
 ![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/complain.png){: .align-center}
+
+On the chart above it is instantly clear that users that hasn’t filed any complain have a very high retained percentage; which is very intuitive. Using the same data but visualizing it differently, the chart below shows that churn users’ tendency to complain is very high >50%.
+
+![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/segcomplain.png){: .align-center}
+
 
 ### Satisfaction Score
 ![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/satisfaction-score.png){: .align-center}

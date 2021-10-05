@@ -115,7 +115,9 @@ Considering how much a feature is relatable to the target (churn) and their corr
 6.	Satisfaction Score
 
 ### Preferred Order Category
+As defined by the dataset, this feature shows what is the preferred order category of customer in last month. From this feature we can gather which category is popular and what are the user’s churn tendencies based on that. 
 ![Preferred Category Chart]({{ site.url }}{{ site.baseurl }}/assets/images/preferred-category.png){: .align-center}
+From the chart it is clear that the category ‘Laptop & Accessory’ is by far the most popular; ‘Mobile Phone’ has the highest churn tendencies.
 
 ### Cashback Amount
 ![Cashback Amount Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback.png){: .align-center}

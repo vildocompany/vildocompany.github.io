@@ -172,88 +172,22 @@ The complain recorded are only if users have done any complain during the past m
 
 On the chart above it is instantly clear that users that hasn’t filed any complain have a very high retained percentage; which is very intuitive. Using the same data but visualizing it differently, the chart below shows that churn users’ tendency to complain is very high >50%.
 
-![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/segcomplain.png){: .align-center}
+![Complain Chart 2]({{ site.url }}{{ site.baseurl }}/assets/images/segcomplain.png){: .align-center}
 
 
 ### Satisfaction Score
 Satisfaction score that is recorded is only about the satisfactory score of customer service; not totally unrelated to the company, but it is unrelated towards the platform’s performance.
 
-![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/satisfaction-score.png){: .align-center}
+![Satisfaction Chart]({{ site.url }}{{ site.baseurl }}/assets/images/satisfaction-score.png){: .align-center}
 
-The results are quite questionable; where the pattern shows that the higher satisfaction score actually have high churn rate; its very counter-intuitive.
+The results are quite questionable; where the pattern shows that the higher satisfaction score actually have high churn rate; it's very counter-intuitive.
 
 ## Cross Referencing Features
 Having analysing and gaining insights from the selected features, it is important to then cross referencing the findings across features. This way it is possible to gain more insights and find out relationships between insights.
 
 First to check is 'Preferred Order Category', this feature doesnt give enough information on why users tend to churn more if they prefer to order on certain category.
 1. 'Preferred Order Category' vs. 'Cashback Amount'
+![PreferredCat Cashback]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatcashback.png){: .align-center}
 
-| Preferred Order Category | Cashback Amount (Churn) | Cashback Amount (Retained) |
-|:--------|:-------:|-------:|
-| Others | - | 304.42 |
-| Grocery | 221.69 | 267.32 |
-| Laptop & Accessory | 169.31 | 167.86 |
-| Fashion | 206.29 | 211.47 |
-| Mobile Phone | 141.35 | 144.21 |
-|=====
-
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-{: rules="groups"}
-
-## Code Snippets
-
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-```html
-<a href="#" class="btn btn--success">Success Button</a>
-```
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn--info">Info Button</a></div>
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+2. 'Preferred Order Category' vs. 'Order Count'
+![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-center}

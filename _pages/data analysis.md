@@ -192,5 +192,9 @@ First to check is `PreferredOrder Category`, analysing this feature didn’t giv
 -	The other categories’ average cashback amount is closer to the average cashback amount of users with retained tendency (173.41 and 167.86 respectively).
 2. Preferred Order Category vs. Order Count
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-left}
+-	Even though there are no clear difference between churn and retained user’s order count on earlier analysis, through this data it shows that categories with lower churn rate have higher order count.
+-	Analysing further, the feature `PreferredOrderCategory` means that the user has more order on the specific category compared to others. If the user has 2 order count, it means both orders should be on the same category for it to be the *preferred* category.
+-	Since categories other than ‘Mobile Phone’ have >3 order counts, this means that the users would have done **order in at least 2 different categories**.
 3. Preferred Order Category’ vs. ‘Hour Spend on App
 ![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcathour.png){: .align-left}
+-	While category with higher churn rate have lower hour spend on app, the difference is negligible and doesn’t mean anything. 

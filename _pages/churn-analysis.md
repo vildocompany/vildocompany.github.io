@@ -54,12 +54,13 @@ View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/ma
 # Computing Churn Rate
 ---
 Starting off, the first thing to do is calculate the overall user churn rate of the company. This is achieved by dividing the total churn user with total user (`churn user / total user`). 
+
 From the data we gather:
-   - Total User: 5630
-   - Churn User: 948
-   - Retained User: 4682
-   - Churn Rate: 16.84%
-   - Retain Rate: 83.16%
+> - **Total User:** 5630
+> - **Churn User:** 948
+> - **Retained User:** 4682
+> - **Churn Rate:** 16.84%
+> - **Retain Rate:** 83.16%
 
 > “ . . . there is a global opinion for an ideal churn rate to be 5%.”
 
@@ -78,7 +79,12 @@ Alternatively, the data can also be plotted to represent user retention; if tota
 
 ![Retention Chart]({{ site.url }}{{ site.baseurl }}/assets/images/retention.png){: .align-center}
 
-From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform; this is a recurring problem with digital platforms. 
+From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform; this is a recurring problem with digital platforms.
+
+> - **Total Churn Users:** 948
+> - **Churn Users (Tenure <= 2):** 635
+> - **Churn Users (Tenure > 2):** 313
+> - **Ratio of Churn Users (Tenure <2):** 66.98 %
 
 Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities where the problem is at: (1) sales funnel – completing purchase; (2) retention funnel – loyal user conversion. A brief skim through the data shows that all users have a minimum of `1` purchase complete; there are no problem with user’s first-purchase; it is a retention funnel problem.
 

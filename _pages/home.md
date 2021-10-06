@@ -13,7 +13,7 @@ feature_row:
     alt: "Data Analysis"
     title: "Data Analysis"
     excerpt: "Make sense of, transforming, engineering, and questioning data to find useful information."
-    url: https://alvingiovanni.github.io/portfolio/data-analysis/
+    url: https://alvingiovanni.github.io/portfolio/churn-analysis/
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png

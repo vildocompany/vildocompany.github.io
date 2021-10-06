@@ -31,6 +31,9 @@ Objective of data analysis is to extract insights from data; then assist in deci
 
 This can be achieved by analysing data and asking the right question; gaining insights and answers from data.  Everything is then reported and presented with solution recommendation related to the problem at hand.
 
+**Note:**
+This analysis is the first part of a 2-part project: second part [here].
+{: .notice--warning}
 
 # Case Study - Ecommerce Churn Analysis
 ---
@@ -44,7 +47,7 @@ Case is part of a study and 'company' mentioned is fictional; data used is a pub
 {: .notice--info}
 
 **Note:**
-This analysis is the first part of a 2-part project: second part [here].
+View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/main/Churn%20Rate%20Analysis.ipynb).
 {: .notice--warning}
 
 

@@ -62,10 +62,9 @@ From the data we gather:
 > - **Churn Rate:** 16.84%
 > - **Retain Rate:** 83.16%
 
-> “ . . . there is a global opinion for an ideal churn rate to be 5%.”
-
 Knowing this beforehand gives context to how high/low the company’s current churn rate is.
 
+> “ . . . there is a global opinion for an ideal churn rate to be 5%.”
 
 # Analysing User Churn-Tenure Relation
 ---
@@ -84,9 +83,9 @@ From the chart above, it is clear that **a lot** of churn users are on their 0-2
 > - **Total Churn Users:** 948
 > - **Churn Users (Tenure <= 2):** 635
 > - **Churn Users (Tenure > 2):** 313
-> - **Ratio of Churn Users (Tenure <2):** 66.98 %
+> - **Percentage of Tenure <= 2 Users:** 66.98 % `(Tenure <= 2 / Total Churn Users)`
 
-Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities where the problem is at: (1) sales funnel – completing purchase; (2) retention funnel – loyal user conversion. A brief skim through the data shows that all users have a minimum of `1` purchase complete; there are no problem with user’s first-purchase; it is a retention funnel problem.
+Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities where the problem is at: (1) sales funnel – completing purchase; (2) retention funnel – loyal user conversion. A brief skim through the data shows that all users have a minimum of **1** purchase complete; there are no problem with user’s first-purchase; it is a retention funnel problem.
 
 
 # Finding User Characteristics

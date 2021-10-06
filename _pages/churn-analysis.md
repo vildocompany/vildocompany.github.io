@@ -1,5 +1,5 @@
 ---
-permalink: /portfolio/data-analysis/
+permalink: /portfolio/churn-analysis/
 title: " "
 wide: true
 toc: true

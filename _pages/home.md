@@ -9,18 +9,18 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 feature_row:
-  - image_path: /assets/images/2095724.png
+  - image_path: /assets/images/data-analysis.png
     alt: "Data Analysis"
     title: "Data Analysis"
     excerpt: "Make sense of, transforming, engineering, and questioning data to find useful information."
     url: https://alvingiovanni.github.io/portfolio/churn-analysis/
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/machine-learning.png
     alt: "Prediction Model and Machine Learning"
     title: "Prediction Model"
     excerpt: "Data engineering, data preprocessing, and designing prediction model with machine learning."
-    url: "/docs/layouts/"
+    url: https://alvingiovanni.github.io/portfolio/churn-prediction/
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png

@@ -128,9 +128,10 @@ The most important hyperparameter to tune in a tree based model is the `max-dept
 
 From the graph above, there are 2 important thing to observe:
 1. Growth of discrepancy between scores of `Train` and `Test` results. For obvious reasons, train score result will often if not always be higher; but the bigger the discrepancy of both scores would indicate the model to be overfitting.
-2. Shape of the curve; the plateu-ing of the scores, where the growth in score starts to slows down.
+2. Shape of the curve; where the growth in score starts to slows down.
+3. Plateu-ing of the scores, where the scores stop improving. 
 
-Considering both points, the best `max-depth` would be n = 10.
+Considering both points, the best `max-depth` would be n = 14.
 
 ## Random Forest (Tuned)
 **Train Recall:** 0.96201

@@ -5,35 +5,17 @@ wide: true
 toc: true
 toc_sticky: true
 author_profile: false
-
-gallery:
-  - url: /assets/images/numerical%20correlation.png
-    image_path: /assets/images/numerical%20correlation.png
-    alt: "numerical correlation"
-    title: "Numerical Correlation"
-  - url: /assets/images/categorical%20correlation.png
-    image_path: /assets/images/categorical%20correlation.png
-    alt: "categorical correlation"
-    title: "Categorical Correlation"
-gallery2:
-  - url: /assets/images/numerical-correlation-full.png
-    image_path: /assets/images/numerical-correlation-full.png
-    alt: "numerical correlation full"
-    title: "Numerical Correlation Full"
-  - url: /assets/images/categorical-correlation-full.png
-    image_path: /assets/images/categorical-correlation-full.png
-    alt: "categorical correlation full"
-    title: "Categorical Correlation Full"
 ---
-# Data Analysis
+# Prediction Model
 ---
-Objective of data analysis is to extract insights from data; then assist in decision-making. 
+Objective of prediction model is to help predict future events by using existing data; the prediction made by the model then would drive decisions made in the present. 
 
-This can be achieved by analysing data and asking the right question; gaining insights and answers from data.  Everything is then reported and presented with solution recommendation related to the problem at hand.
+This can be achieved by analysing and engineering data, then projecting the results into machine learning model. The resulting model would then be able to predict outcomes from future data.
 
 **Note:**
-This analysis is the first part of a 2-part project: second part [here].
+This analysis is the second part of a 2-part project: first part [here]( https://alvingiovanni.github.io/portfolio/churn-analysis/).
 {: .notice--warning}
+
 
 # Case Study - Ecommerce Churn Analysis
 ---
@@ -51,166 +33,122 @@ View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/ma
 {: .notice--warning}
 
 
-# Computing Churn Rate
+# Data Cleansing & Pre-Processing
 ---
-Starting off, the first thing to do is calculate the overall user churn rate of the company. This is achieved by dividing the total churn user with total user (`churn user / total user`). 
-From the data we gather:
-   - Total User: 5630
-   - Churn User: 948
-   - Retained User: 4682
-   - Churn Rate: 16.84%
-   - Retain Rate: 83.16%
+Data cleansing and pre-processing are essential steps in preparing data for predictive modelling. This process purpose is to rid the data of incorrect, incomplete, improperly formatted, or duplicative data; these data are useless data or at worst misleading. When data full of ‘junk’ are being used to design a predictive model, the model itself will turn out to be a ‘junk; as many people says “Garbage in, garbage out”.
 
-> “ . . . there is a global opinion for an ideal churn rate to be 5%.”
+## Check Duplicate Data
+Duplicate datas can introduce bias into the model; since data that are supposed to be occuring only once ends up occuring more than once and weight more on the model's calculation. This particular data have no duplicate values so the data can be left alone.
 
-Knowing this beforehand gives context to how high/low the company’s current churn rate is.
+> - Duplicate Rows: 0
+> - Duplicate Rows: 5630
 
 
-# Analysing User Churn-Tenure Relation
+## Dropping Features
+Having analysing the data previously in the analysis part, there are a few features that need to be preemptively removed:
+1. **CustomerID** - is a random number assigned and will introduce a random element into the model.
+2. **Tenure** - this is because keeping this feature will introduce bias in the model; since it was determined that most of the churn users are on `Tenure <=2` its important to be able to predict the users' churn probability as earlu as possible regardless of their tenure.
+3. **DaySinceLastOrder** - a feature that indirectly also defines users' tenure; as it is the opposite of tenure.
+
+## Dealing With Missing Values
+The data have some features with missing value that needs to be addressed. Firstly it is possible to just drop all the missing value row and check if the row reduction would be too much or not.
+> - Rows before drop: 5630
+> - Rows left after drop: 4345
+> - Data Shrinkage: 22.82 %
+
+Dropping all rows with missing value reduces the data size by 28.28%; which is too much so another treatment for missing values need to be done. Since all the missing values are on numerical columns, there are two choices, to fill all missing values with mean or median. With some of the features needing an integer (rounded non-decimal numbers) `CityTier` or boolean feature that are defined by 0/1; most of the features' mean and median are close to each other; for this case filling missing value with median would be more fitting. By filling missing values, the data wont experience any data shrinkage.
+
+
+## Outlier filter with Zscore
+By definition, an outlier is an object (in this case data) that diverge substantially from the rest of the group's average. Outliers usually introduce noises in data and often something that breaks a pattern.   
+
+It is important to take care of outlier data that are going to be used to design a predictive model. Most of the time, removing outlier value from the whole data will help improve the performance of the model; it is better to remove the outlier in this case.
+
+The outlier filter will be using z-score. Z-scores gives a score of how many `times of standard deviation` the distance of the data is from its dataset average. The break point is on **3 times standard deviation**, since 3 times standard deviation represents 99.7% of the whole dataset on a normal distribution data.
+
+> - Rows before outlier filter: 5630
+> - Rows left after outlier filter: 5380
+
+
+## Class Imbalance
+Since this is a classification problem, there is a need to check for class imbalance on the target data. Class imbalance is where the class distribution across the data is knowned to be biased or skewed; in this case the class is the churn data. 
+
+Original data class distribution:
+> - Non-Churn Users: 4467
+> - Churn Users: 913
+
+The target, churn/non-churn status of users, distribution is biased towards 'non-churn'; it is 83% of the whole sample. With this bias, the 'minority' class could end up being ignored by the model; simply stating that all of the users as 'non-churn' users would result in 83% accuracy.
+
+There are alot of different methods to deal with class imbalance issue, one of them is to oversample the data. In this case oversampling is done with SMOTE. The resulting oversampling is to equalize the data size for both classes.
+
+Data class distribution after oversampling:
+> - Non-Churn Users: 4467
+> - Churn Users: 4467
+
+# Machine Learning Modelling
 ---
-Since user churn is basically user retention (they are directly inversely proportional); a problem with user churn is the same as a problem with user retention. 
+The classification methods that are going to be used are 2 of the most basic methods; Desicion Tree and Random Forest.
+While the scoring would be based on 'Recall', because for predicting churn it is important to get as high a possible of true positive prediction.
 
-Retention itself is about ‘time frame of a user staying/keep returning’; the tenure of users. This means, user churn is directly related with user tenure. Having this in mind, analysing churn and tenure together will give us insight of how our user behave in the retention funnel. 
+Other basic parameters for the model:
+1. 80/20 train/test split
+2. Model are based on sklearn library
 
-![Churn-Tenure Chart]({{ site.url }}{{ site.baseurl }}/assets/images/churn-tenure.png){: .align-center}
+## Decision Tree
+**Train Recall:** 1.0
+**Test Recall:** 0.9357  
 
-Alternatively, the data can also be plotted to represent user retention; if total user in the timeframe is assumed as the initial user count.
+Other tests results:
+- Accuracy: 0.93
+- Precision: 0.92
+- Recall: 0.94
+- F1-Score: 0.93
+- AUC: 0.93
 
-![Retention Chart]({{ site.url }}{{ site.baseurl }}/assets/images/retention.png){: .align-center}
+## Random Forest
+**Train Recall:** 1.0
+**Test Recall:** 0.95716 
 
-From the chart above, it is clear that **a lot** of churn users are on their 0-2 day on the platform; this is a recurring problem with digital platforms. 
+Other tests results:
+- Accuracy: 0.97
+- Precision: 0.97
+- Recall: 0.96
+- F1-Score: 0.97
+- AUC: 0.97
 
-Since the breakpoint for the churn rate is on 0-2 day, there are 2 possibilities where the problem is at: (1) sales funnel – completing purchase; (2) retention funnel – loyal user conversion. A brief skim through the data shows that all users have a minimum of `1` purchase complete; there are no problem with user’s first-purchase; it is a retention funnel problem.
-
-
-# Finding User Characteristics
+# Model Tuning
 ---
-With the information attained from analysing Churn-Tenure data, the users can be split into 2 segments: 
-- Churn Users: users that are churn and on their 0-2 day; 
-- Retained Users: users that stays for longer. 
+Out of the 2 models, Random Forest model results in a better result out of the shelf, so the model would be based on Random Forest.
+However, some tuning would still need to be done. Most of the time tree based model out of the shelf tend to overfit; one clear indication is that the train score result is 100%.
 
-Going forward **‘Segment’** will refer to this segmentation and used as a base to analyse user characteristics.
+## Hyperparameter Tuning
+The most important hyperparameter to tune in a tree based model is the `max-depth`. This is because on default the `max-depth` varibale is set to infitie (maximum) value; this lets the model to keep making new tree and leaf to cater to the diff data combinations which ends up overfitting the data. To check check what the best `max-depth` should be, it is possible to check by drawing a graph:
 
+![maxdepth]({{ site.url }}{{ site.baseurl }}/assets/images/maxdepth.png){: .align-center}
 
-## **Correlation**
-To help with determining which feature to analyse, using correlation heatmap could help in checking each feature's correlation with target. ince the data's features are a mix of numerical and categorical value, there is a need to separate both types to their own dataframe and calculate their correlation separately. Uing Pearson’s Correlation for numerical data; Chi-Squared method for categorical data.
+From the graph above, there are 2 important thing to observe:
+1. Growth of discrepancy between scores of `Train` and `Test` results. For obvious reasons, train score result will often if not always be higher; but the bigger the discrepancy of both scores would indicate the model to be overfitting.
+2. Shape of the curve; the plateu-ing of the scores, where the growth in score starts to slows down.
 
-**Note:**
-Correlation is by no means equal or the same as causation. This [article](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/statistical+language+-+correlation+and+causation) explained more in-depth about correlation vs. causation.
-{: .notice--warning}
+Considering both points, the best `max-depth` would be n = 10.
 
-{% include gallery caption="*The correlation results that are closer to 0 means weaker to no correlation; number that goes bigger (negative value or not) means a stronger correlation.*" %}
+## Random Forest (Tuned)
+**Train Recall:** 0.96201
+**Test Recall:** 0.93123 
 
-{% include gallery id="gallery2" caption="*Full correlation chart for reference.*" %}
+Other tests results:
+Accuracy: 0.92
+Precision: 0.91
+Recall: 0.93
+F1-Score: 0.92
+AUC: 0.92
 
-From the correlation calculation, top 5 features with highest correlation are:
+## Cross Validation
+To be able to check if the model is reliable, it is important to do a cross validation. One of the way is to iterate the model into multiple folds.
 
-1. Preferred Order Category (0.33)
-2. Cashback Amount (0.24)
-3. Complain (0.22)
-4. Marital Status (0.20)
-5. Preferred Login Device (0.19)
+Folds are designed to split the train data into 2 parts; (1) data that will actually be used to train model; (2) data to validate test results.
+Since the original train data is 80% of the total sample, the data are split into 8 parts, each part representing 10% of the sample. Every fold iteration then will select 1 out of 8 parts in turn and designate it to be the validation data; the rest of the 7 parts are combined to be the test data. This will result in 8 different train, test, and validatin scores to be observed.
 
-However, choosing features solely based on correlation is not advisable. For example feature like `Marital Status` is something that's innate to customer and there is no action that could be taken. On the contrary, even though correlation scores are low; features like `Satisfaction Score` or `Hours Spend on App` are interesting characteristics that are related to how the user perceive/use the platform.
+![cross-validation]({{ site.url }}{{ site.baseurl }}/assets/images/cross-validation.png){: .align-center}
 
-
-## Insights - Features Analysis
-Considering how much a feature is relatable to the target (churn) and their correlation score, the selected features are:
-1.	Preferred Order Category
-2.	Cashback Amount
-3.	Order Count
-4.	Hour Spend on App
-5.	Complain
-6.	Satisfaction Score
-
-
-### Preferred Order Category
-As defined by the dataset, this feature shows what is the preferred order category of customer in last month. From this feature we can gather which category is popular and what are the user’s churn tendencies based on that.
-
-![Preferred Category Chart]({{ site.url }}{{ site.baseurl }}/assets/images/preferred-category.png){: .align-center}
-
-From the chart it is clear that the category ‘Laptop & Accessory’ is by far the most popular; ‘Mobile Phone’ has the highest churn tendencies.
-
-
-### Cashback Amount
-This feature shows how much cashback has been gained by the user on the pass month. Since there is no data on user’s spending, we can use user’s cashback gained to assume their spending. Higher cashback gain means more spending.
-
-![Cashback Amount Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback.png){: .align-center}
-
-The chart above shows the distribution of cashback gained by the users; churn users have a lower peak cashback gained and the fall off from its peak is steep (concave parabolic); retained users have a higher peak cashback gained and the fall off from its peak is more linear.
-
-![Cashback Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/cashback-spread.png){: .align-center}
-
-To help visualize the distribution, the boxplot above shows that retained users tend to have higher cashback gained. The median cashback of retained users are significantly higher than churn users, going above churn user’s cashback on Q3. 
-
-
-### Order Count
-This data tells how many separate orders have been placed by the user in the previous month. The fact previously stated that all users have completed their first purchase is based on this data. 
-
-![Order Count Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-count.png){: .align-center}
-
-From the distribution there are no clear difference between churn and retained user’s order count. Both segments’ users are leaning towards 1-2 orders and then fall off on higher order count.
-
-![Order Spread Chart]({{ site.url }}{{ site.baseurl }}/assets/images/order-spread.png){: .align-center}
-
-The boxplot confirms what the distribution plot shows; that churn and retained users have tendencies of 1-2 order count, however retained users lean more to order more (positively skewed). 
-
-
-### Hour Spend on App
-Hour spend on app depicts how the user based is using the platform (app and website); how long do users use the platform on average. This feature can show how engaged the users are when they are using the platform.
-
-![Hour Spend Chart]({{ site.url }}{{ site.baseurl }}/assets/images/hour-spend.png){: .align-center}
-
-Most of the users spend on average 3 hours using the platform. On the exception on users that spend <0 hours on the platform; there are no clear pattern on how hours spend on platform would affect user’s churn or retention
-
-
-### Complain
-The complain recorded are only if users have done any complain during the past month; there are no count of how many complain has been filed. 
-
-![Complain Chart]({{ site.url }}{{ site.baseurl }}/assets/images/complain.png){: .align-center}
-
-On the chart above it is instantly clear that users that hasn’t filed any complain have a very high retained percentage; which is very intuitive. Using the same data but visualizing it differently, the chart below shows that churn users’ tendency to complain is very high >50%.
-
-![Complain Chart 2]({{ site.url }}{{ site.baseurl }}/assets/images/segcomplain.png){: .align-center}
-
-
-### Satisfaction Score
-Satisfaction score that is recorded is only about the satisfactory score of customer service; not totally unrelated to the company, but it is unrelated towards the platform’s performance.
-
-![Satisfaction Chart]({{ site.url }}{{ site.baseurl }}/assets/images/satisfaction-score.png){: .align-center}
-
-The results are quite questionable; where the pattern shows that the higher satisfaction score actually have high churn rate; it's very counter-intuitive.
-
-## Cross Referencing Features
-Having analysing and gaining insights from the selected features, it is important to then cross referencing the findings across features. This way it is possible to gain more insights and find out relationships between insights.
-
-The feature that needs to be cross-referenced is 'Preferred Order Category' with other features. Analysing this feature didn’t give enough information on why users tend to churn more if they prefer to order on certain category.
-1. Preferred Order Category vs. Cashback Amount
-![PreferredCat Cashback]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatcashback.png){: .align-left}
--	Average cashback amount on ‘Mobile Phone’ category is very close with the average cashback amount of users with churn tendency (148.98	and 144.21 respectively).
--	The other categories’ average cashback amount is closer to the average cashback amount of users with retained tendency (173.41 and 167.86 respectively).
-2. Preferred Order Category vs. Order Count
-![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcatorder.png){: .align-left}
--	Even though there are no clear difference between churn and retained user’s order count on earlier analysis, through this data it shows that categories with lower churn rate have higher order count.
--	Analysing further, the feature `PreferredOrderCategory` means that the user has more order on the specific category compared to others. If the user has 2 order count, it means both orders should be on the same category for it to be the *preferred* category.
--	Since categories other than ‘Mobile Phone’ have >3 order counts, this means that the users would have done **order in at least 2 different categories**.
-3. Preferred Order Category’ vs. ‘Hour Spend on App
-![PreferredCat OrderCount]({{ site.url }}{{ site.baseurl }}/assets/images/prefcathour.png){: .align-left}
--	While category with higher churn rate have lower hour spend on app, the difference is negligible and doesn’t mean anything. 
-
-## Conclusion – “Aha! Moment”
-From gathering all the insights, it is possible then to determine user characteristic towards the target, churn. However, instead of defining the characteristics of users that have churn tendency; defining users that will retain will be more engaging.
-The major insights that have been gathered, the characteristics of users that will retain are:
-1.	Complete order on more than 1 category.
-2.	Gained >170 cashback from purchases; this also reflects to the total spending amount. (e.g. in this case if cashback is 10% then the total spending would be 1700).
-3.	Spends >1 hour on the platform.
-4.	Did not file any complain.
-These points then could be defined as the platform’s “Aha! Moment”, a set of actions or characteristics that separates users who find value and will stay (retained) on the platform from those who won’t. 
-
-# Recommendations
----
-All the characteristics from the defined “Aha! Moment” are around the initial engagement when users newly joined the platform; the recommendation then will address this accordingly.
-1.	First thing is to guide users to explore more of the platform, to enable them to check on different categories. This could be achieved through a lot of ways, the simplest one is to introduce the platform to new users through a tutorial. The tutorial will be focused on exploring how to use the platform’s app, features and the categories available. Having a simple tutorial like this will also indirectly make users spend more time on the app. Accordingly, users going through tutorial would help the users to understand more of the platform which could reduce the likeliness of complain being filed.
-2.	Second is to promote users to spend more, do more purchase, or use more cashback. Following up from the tutorial, with the user exploring more of the platform, it is possible to then design a recommendation system based on the user’s behaviour on their tutorial. With this, the user would then lean towards spending more based on the recommendation that fits them. 
-
-
+From the graph above, it is clear that the model shows constant results; which means that the model is reliable enough to be used.

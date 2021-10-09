@@ -11,14 +11,14 @@ header:
 feature_row:
   - image_path: /assets/images/data-analysis.jpg
     alt: "Data Analysis"
-    title: "Data Analysis"
+    title: "E-commerce Churn Analysis"
     excerpt: "Make sense of, transforming, engineering, and questioning data to find useful information."
     url: https://alvingiovanni.github.io/portfolio/churn-analysis/
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/machine-learning.jpg
     alt: "Prediction Model and Machine Learning"
-    title: "Prediction Model"
+    title: "E-commerce Prediction Model"
     excerpt: "Data engineering, data preprocessing, and designing prediction model with machine learning."
     url: https://alvingiovanni.github.io/portfolio/churn-prediction/
     btn_class: "btn--primary"

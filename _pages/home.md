@@ -30,13 +30,6 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/data-analysis.jpg
-    alt: "Data Analysis"
-    title: "E-commerce Churn Analysis"
-    excerpt: "Make sense of, transforming, engineering, and questioning data to find useful information."
-    url: https://alvingiovanni.github.io/portfolio/churn-analysis/
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
 ---
 # Portfolio
 {: style="text-align: center;"}

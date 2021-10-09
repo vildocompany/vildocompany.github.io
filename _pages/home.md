@@ -6,7 +6,6 @@ classes: wide
 layout: splash
 header:
   image: /assets/images/splash-background2.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 feature_row:
   - image_path: /assets/images/data-analysis.jpg

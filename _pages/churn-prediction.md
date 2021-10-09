@@ -143,3 +143,36 @@ Since the original train data is 80% of the total sample, the data are split int
 ![cross-validation]({{ site.url }}{{ site.baseurl }}/assets/images/cross-validation.png){: .align-center}
 
 From the graph above, it is clear that the model shows constant results; which means that the model is reliable enough to be used.
+
+# **Predictive Model Implications**
+---
+Using the predictive model it is possible to predict whether a particular user will churn or not. Since there is no *future* data available to test the model with; using the existing data, albeit was used to train the model, is the only option available. 
+
+To simulate proper business implication, the test will be in a form of simulation if the model is actually being implemented.
+
+## Simulation Conditions
+Since there is no context of how big the data is, or how capable the hardwares that are going to run the model, it is safe to assume that the model would be ran once a day at the end of the day.
+
+With this condition comes a limitation to which users that could be mitigated, specifically users that churns on day 0; it is not possible to mitigate users that churn on the same day they register because the model only predict after the end of the day.
+
+![confusion]({{ site.url }}{{ site.baseurl }}/assets/images/confusion.png){: .align-center}
+
+The results shows that out of all of the churn users, there are `616` correcly predicted churn users from a total of `948` churn users.
+
+## Business Impact
+After being able to predict which users are at a high risk of churning, it is important to be able to follow up that information with a business actions.
+There are alot of different business actions that could be taken; some recommendations are given on the first part of this project. Obviously, how effective the business actions taken are yet to be known; it is possible, however, to forecast the business impact if actions taken are effective in turning possible churn users into loyal users.
+
+For this calculation there are some assumption to be taken:
+1. Revenue from users are assumed from their Cashback gained (cashback is set to a 10% flat).
+    - Churn users average revenue: 1400000
+    - User's LTV: 2200000 (minimum)
+2. Acquisition cost is 650000.
+3. Retention cost is 20% of Acquisition cost, 130000.
+4. Every churn users are replaced with a new user with acquisition cost.
+
+From these assumption it is possible to forecast the business impact depending on how effective the business actions taken are.
+
+
+
+The gain in revenue for converting high-risk of churning users into loyal users are quite significant; even though it is linear, it is 17.6% growth per 10% of churn users converted. This is of course only for one month. The growth would become more significant and exponential with time passed, the growth of loyal users and LTV would stack together and increase the gain. 

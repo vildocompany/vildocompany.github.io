@@ -96,6 +96,7 @@ Other basic parameters for the model:
 
 ## Decision Tree
 **Train Recall:** 1.0
+
 **Test Recall:** 0.9357  
 
 Other tests results:
@@ -107,6 +108,7 @@ Other tests results:
 
 ## Random Forest
 **Train Recall:** 1.0
+
 **Test Recall:** 0.95716 
 
 Other tests results:

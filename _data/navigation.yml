@@ -4,8 +4,8 @@ main:
     url: https://alvingiovanni.github.io/about/
   - title: "Portfolio"
     url: https://alvingiovanni.github.io/portfolio/
-  # - title: "Sample Posts"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Sample Posts"
+    url: https://alvingiovanni.github.io/#portfolio
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

@@ -17,7 +17,7 @@ This prediction model is the second part of a 2-part project: first part [here](
 {: .notice--warning}
 
 **Info:**
-View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/main/Churn%20Rate%20Analysis.ipynb).
+View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/main/Churn%20Rate%20Prediction.ipynb).
 {: .notice--primary}
 
 

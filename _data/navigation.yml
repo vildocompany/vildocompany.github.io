@@ -3,8 +3,8 @@ main:
   - title: "About"
     url: https://alvingiovanni.github.io/about/
   - title: "Portfolio"
-    url: https://alvingiovanni.github.io/portfolio/
-  - title: "Sample Posts"
+    url: https://alvingiovanni.github.io/#portfolio
+  - title: "Contact"
     url: https://alvingiovanni.github.io/#portfolio
   # - title: "Sample Collections"
   #   url: /collection-archive/

@@ -29,9 +29,18 @@ feature_row:
     excerpt: "Gather, analyze, and report data through spreadsheet."
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"
+feature_row1:
+  - image_path: /assets/images/data-analysis.jpg
+    alt: "Data Analysis"
+    title: "E-commerce Churn Analysis"
+    excerpt: "Make sense of, transforming, engineering, and questioning data to find useful information."
+    url: https://alvingiovanni.github.io/portfolio/churn-analysis/
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 # Portfolio
 {: style="text-align: center;"}
 ---
 {% include feature_row %}
+{% include feature_row1 %}

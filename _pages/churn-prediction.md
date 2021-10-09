@@ -173,6 +173,6 @@ For this calculation there are some assumption to be taken:
 
 From these assumption it is possible to forecast the business impact depending on how effective the business actions taken are.
 
-
+![revenue]({{ site.url }}{{ site.baseurl }}/assets/images/revenue.png){: .align-center}
 
 The gain in revenue for converting high-risk of churning users into loyal users are quite significant; even though it is linear, it is 17.6% growth per 10% of churn users converted. This is of course only for one month. The growth would become more significant and exponential with time passed, the growth of loyal users and LTV would stack together and increase the gain. 

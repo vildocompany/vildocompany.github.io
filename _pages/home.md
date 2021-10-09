@@ -30,7 +30,6 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-feature_row1:
   - image_path: /assets/images/data-analysis.jpg
     alt: "Data Analysis"
     title: "E-commerce Churn Analysis"
@@ -44,4 +43,3 @@ feature_row1:
 ---
 {% include feature_row %}
 
-{% include feature_row1 %}

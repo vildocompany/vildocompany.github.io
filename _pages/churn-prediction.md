@@ -6,31 +6,19 @@ toc: true
 toc_sticky: true
 author_profile: false
 ---
-# Prediction Model
+# E-commerce Churn Prediction Model
 ---
-Objective of prediction model is to help predict future events by using existing data; the prediction made by the model then would drive decisions made in the present. 
+Objective of prediction model is to help predict future events by using existing data; the prediction made by the model then would drive decisions made in the present. This can be achieved by analysing and engineering data, then projecting the results into machine learning model. The resulting model would then be able to predict outcomes from future data. In this case the predictive model is made for an ecommerce platform. 
 
-This can be achieved by analysing and engineering data, then projecting the results into machine learning model. The resulting model would then be able to predict outcomes from future data.
+The company behind an ecommerce platform are having problem with their overall user churn rate. The company wanted a tool to help them distinguish between high and low risk of churning users so they can apply proper actions to each group of users. Prior to designing the prediction model, there is a need to first analyse and we need to understand the users behavior and characteristics; to be able come up with a more precise model.
 
 **Note:**
-This analysis is the second part of a 2-part project: first part [here]( https://alvingiovanni.github.io/portfolio/churn-analysis/).
+This prediction model is the second part of a 2-part project: first part [here]( https://alvingiovanni.github.io/portfolio/churn-analysis/).
 {: .notice--warning}
-
-
-# Case Study - Ecommerce Churn Analysis
----
-So, what is churn?
-Churn is defined as ‘number of users that has stopped using a service; in this case the service is ecommerce platform. 
-
-The company behind the ecommerce platform wants to know their user churn condition. They wanted to know when and where people would drop their platform; if there are any clear differences in user characteristics between those who are classified as churn and aren’t.
 
 **Info:**
-Case is part of a study and 'company' mentioned is fictional; data used is a public data that can be accessed through: [dataset](https://www.kaggle.com/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction).
-{: .notice--info}
-
-**Note:**
 View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/main/Churn%20Rate%20Analysis.ipynb).
-{: .notice--warning}
+{: .notice--primary}
 
 
 # Data Cleansing & Pre-Processing

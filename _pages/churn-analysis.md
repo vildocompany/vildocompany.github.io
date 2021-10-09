@@ -37,7 +37,7 @@ This analysis is the first part of a 2-part project: second part [here](https://
 
 **Info:**
 View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/main/Churn%20Rate%20Analysis.ipynb).
-{: .notice--warning}
+{: .notice--primary}
 
 
 # Computing Churn Rate

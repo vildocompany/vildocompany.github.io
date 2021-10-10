@@ -58,9 +58,15 @@ Now, I am in an endeavor to advance my data analysis skill and career.
 # Contact
 {: style="text-align: center;"}
 ---
+**Alvin**
+{: style="text-align: center;"}
+
 **E-mail:** alvingiovanni@outlook.com
+{: style="text-align: center;"}
 
 **GitHub:** [alvingiovanni](https://github.com/alvingiovanni)
+{: style="text-align: center;"}
 
 **LinkedIn:** [in/alvingiovanni](www.linkedin.com/in/alvingiovanni)
+{: style="text-align: center;"}
 

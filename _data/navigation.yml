@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About"
-    url: https://alvingiovanni.github.io/about/
+    url: https://alvingiovanni.github.io/#about-me
   - title: "Portfolio"
     url: https://alvingiovanni.github.io/#portfolio
   - title: "Contact"
-    url: https://alvingiovanni.github.io/#portfolio
+    url: https://alvingiovanni.github.io/#contact
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

@@ -58,7 +58,7 @@ Now, I am in an endeavor to advance my data analysis skill and career.
 # Contact
 {: style="text-align: center;"}
 ---
-**Alvin**
+##Alvin
 {: style="text-align: center;"}
 
 **E-mail:** alvingiovanni@outlook.com

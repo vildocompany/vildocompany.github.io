@@ -55,15 +55,12 @@ Now, I am in an endeavor to advance my data analysis skill and career.
 ---
 {% include feature_row %}
 
-<Body>   
-<br>
-<br>
-</Body>   
----
 # Contact
 {: style="text-align: center;"}
 ---
 **E-mail:** alvingiovanni@outlook.com
+
 **GitHub:** [alvingiovanni](https://github.com/alvingiovanni)
+
 **LinkedIn:** [in/alvingiovanni](www.linkedin.com/in/alvingiovanni)
 

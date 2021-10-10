@@ -8,15 +8,14 @@ author_profile: false
 ---
 # Delivery Area Split
 ---
-Objective of data analysis is to extract insights from data; then assist in decision-making. This can be achieved by analysing data and asking the right question; gaining insights and answers from data. Everything is then reported and presented with solution recommendation related to the problem at hand.
-
-So, what is churn? Churn is defined as ‘number of users that has stopped using a service; in this case the service is ecommerce platform. The company behind the ecommerce platform wants to know their user churn condition. They wanted to know when and where people would drop their platform; if there are any clear differences in user characteristics between those who are classified as churn and aren’t.
+For companies that offer delivery or courier services, knowing the areas where they do their delivery is essential. Determining which areas are dense with customers and which aren't, and which areas that give more opportunity and growth, will help the company reduce cost and improve revenue.
 
 **Note:**
-This analysis is the first part of a 2-part project: second part [here](https://alvingiovanni.github.io/portfolio/churn-prediction/).
+For anonymity and to keep classified information undisclosed, the companies name are gonna be replaced and the data/analysis results will be censored.
 {: .notice--warning}
 
-**Info:**
-View the full notebook [here](https://github.com/alvingiovanni/portfolio/blob/main/Churn%20Rate%20Analysis.ipynb).
-{: .notice--primary}
+On this case, a delivery company (A) is acting as a 4th-party logistic for another company (B). Both companies are operating on the same general area but have split delivery area for a long time; company A handles more area than company B. However, company B wants to increase their own operation size, thus proposing company B proposes to take charge of specific areas from company A. Even though it is a 'proposal', company A as a 4th-party have no option but to accept; however is trying to counter propose which area to be handed over.
+
+This analysis is done on behalf of company A, trying to find the best delivery area split for them; considering the delivery volume they get from company B and their own delivery volume on the specific area.
+
 

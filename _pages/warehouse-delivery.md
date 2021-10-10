@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 author_profile: false
 ---
-# Delivery Manpower Analysis 
+# Delivery Preparation Manpower Analysis 
 ---
 For companies that offer delivery or courier services, knowing the areas where they do their delivery is essential. Determining which areas are dense with customers and which aren't, and which areas that give more opportunity and growth, will help the company reduce cost and improve revenue.
 

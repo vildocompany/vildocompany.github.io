@@ -45,7 +45,8 @@ feature_row:
 
 Now, I am in an endeavor to advance my data analysis skill and career.
 
-<p>This is Line1</p>
+<p></p>
+<p></p>
 # Portfolio
 {: style="text-align: center;"}
 ---

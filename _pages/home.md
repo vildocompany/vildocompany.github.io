@@ -22,10 +22,10 @@ feature_row:
     url: https://alvingiovanni.github.io/portfolio/churn-prediction/
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "Spreadsheet"
-    title: "Spreadsheet"
-    excerpt: "Gather, analyze, and report data through spreadsheet."
+  - image_path: /assets/images/delivery-area.jpg
+    alt: "Delivery Area Split"
+    title: "Delivery Area Split"
+    excerpt: "Gather and analyze shipment volume to decide on delivery area."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"

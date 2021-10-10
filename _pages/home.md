@@ -38,7 +38,6 @@ feature_row:
     btn_label: "Learn more"
 ---
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/test.png){: .align-left}
----
 # About Me
 {: style="text-align: center;"}
 ---
@@ -47,7 +46,6 @@ feature_row:
 Now, I am in an endeavor to advance my data analysis skill and career.
 
 
----
 # Portfolio
 {: style="text-align: center;"}
 ---

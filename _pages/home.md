@@ -37,6 +37,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
+---
 # About Me
 {: style="text-align: center;"}
 ---
@@ -49,6 +50,8 @@ Pursuing my passion in data analysis I found myself working with data as an engi
 
 Now, I am in an endeavor to advance my data analysis skill and career.
 
+
+---
 # Portfolio
 {: style="text-align: center;"}
 ---

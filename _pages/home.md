@@ -22,18 +22,18 @@ feature_row:
     url: https://alvingiovanni.github.io/portfolio/churn-prediction/
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/delivery-area.png
-    alt: "Delivery Area Split"
-    title: "Delivery Area Split"
-    excerpt: "Gather and analyze shipment volume to decide on delivery area."
-    url: https://alvingiovanni.github.io/portfolio/delivery-area/
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - image_path: /assets/images/warehouse-delivery.jpg
     alt: "Warehouse Delivery Manpower"
     title: "Warehouse Delivery Manpower"
     excerpt: "Optimizing manpower to prepare delivery for items outgoing from warehouse"
     url: https://alvingiovanni.github.io/portfolio/warehouse-delivery/
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/delivery-area.png
+    alt: "Delivery Area Split"
+    title: "Delivery Area Split"
+    excerpt: "Gather and analyze shipment volume to decide on delivery area."
+    url: https://alvingiovanni.github.io/portfolio/delivery-area/
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---

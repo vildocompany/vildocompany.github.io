@@ -26,7 +26,7 @@ feature_row:
     alt: "Delivery Area Split"
     title: "Delivery Area Split"
     excerpt: "Gather and analyze shipment volume to decide on delivery area."
-    url: "/docs/license/"
+    url: https://alvingiovanni.github.io/portfolio/delivery-area/
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---

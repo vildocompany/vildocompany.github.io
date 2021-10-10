@@ -48,7 +48,6 @@ Now, I am in an endeavor to advance my data analysis skill and career.
 <Body>   
 <br>
 <br>
-<br>
 </Body>   
 ---
 # Portfolio

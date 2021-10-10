@@ -46,8 +46,9 @@ Hi! My name is Alvin and I am an engineer that is passionate about data; I am a 
 Now, I am in an endeavor to advance my data analysis skill and career.
 
 <Body>   
-<hr size="8" width="90%" color="white">
-<hr size="8" width="90%" color="white"> 
+<br>
+<br>
+<br>
 </Body>   
 
 # Portfolio

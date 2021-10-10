@@ -4,7 +4,6 @@ title: " "
 wide: true
 toc: true
 toc_sticky: true
-author_profile: false
 
 gallery:
   - url: /assets/images/numerical%20correlation.png

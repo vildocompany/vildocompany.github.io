@@ -18,6 +18,9 @@ On this case, a delivery company (A) is acting as a 4th-party logistic for anoth
 
 This analysis is done on behalf of company A, trying to find the best delivery area split for them; considering the delivery volume they get from company B and their own delivery volume on the specific area.
 
+**Note:**
+This analysis are done only with spreadsheet.
+{: .notice--primary}
 
 # Analysing Delivery Volume
 ---

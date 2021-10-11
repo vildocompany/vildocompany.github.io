@@ -21,7 +21,7 @@ This analysis is done on behalf of company A, trying to figure out what is the k
 This analysis are done only with spreadsheet.
 {: .notice--primary}
 
-# Analysing Delivery Volume
+# Figuring Out The Problems
 ---
 The most important thing in deciding which area to be kept or handed over, it is important to know the historical delivery volume and potential volume the specific area have. Other than sheer volume, there are other important parameters that needs to be considered. In this analysis, the parameters that are used to decide on the delivery area are:
 1. Volume - sheer delivery and pickup volume

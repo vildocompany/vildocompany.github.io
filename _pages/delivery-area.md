@@ -32,7 +32,7 @@ The most important thing in deciding which area to be kept or handed over, it is
 7. Pickup per stop - average volume of pickup per pickup point
 
 These parameters are observed per postal code acting as the area segregator.
-![volumeanalysis]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/teaser1.png){: .align-center}
+![volumeanalysis]({{ site.url }}{{ site.baseurl }}/assets/images/delivery-area/teaser1.png){: .align-center}
 
 On this case, it is actually not to try to keep the area with the densest volume from company B, because those areas are the most disputed and company B wanted the most. In fact it is to try to find areas where company A have a lot of their own volume, outside of company B's volume, but then still have respectable volume from company B. This way that specific area, for company A, will have a combined volume and density of their own volume and company B's volume. 
 
@@ -40,14 +40,14 @@ On this case, it is actually not to try to keep the area with the densest volume
 ---
 From compiling and calculating each parameters into consideration, the area to be kept and handed over are set accordingly. On this project, several scenarios of proposal are given, this is to give options and make negotiation smoother.
 
-![proposalareas]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/teaser2.png){: .align-center}
+![proposalareas]({{ site.url }}{{ site.baseurl }}/assets/images/delivery-area/teaser2.png){: .align-center}
 
 The resulting proposal are in a form of which postal code are to be kept by company A, and which postal code are to be handed over to company B.
 
 # Determining Area
 ---
 To help management and business team visualize the area and get a better understanding of the are in question, the volume and areas are mapped with google mymaps.
-![map]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/map.png){: .align-center}
+![map]({{ site.url }}{{ site.baseurl }}/assets/images/delivery-area/map.png){: .align-center}
 
 **Note:**
 For anonymity and to keep classified information undisclosed, the area split and volume are not shown, the map is just a dummy.

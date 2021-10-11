@@ -30,6 +30,7 @@ The ongoing operational setups are:
 4. Pre-team manpower is 8 people
 5. Pre-team operational is in 2 shifts, from 11:00-18:00 and 18:00-finish (4 person each shift)
 
+
 # Figuring Out The Problems
 ---
 Since there is no specific problems to be solved, there is first a need to figure out what the problems are. One way is to go on site, asking around and observe the site; results were:
@@ -47,7 +48,7 @@ From the 3 suspected problems, it is possible to check problem 1 and 2 by analys
 
 # Warehouse Outbound Timings
 ---
-There are 10 days of data that are gathered to be used as a sample; there are only several days of data because the project was initiated recently. From all the 10 days of data compiled into a heatmap of shipments separated by the hour the items are signed as 'out of the warehouse'.
+There are 10 days of data that are gathered to be used as a sample; there are only several days of data because the project was initiated recently. From all the 10 days of data compiled into a heatmap of shipments separated by the hour the items are; (1) Signed out by warehouse; (2) Marked as ready for shipment by prep-team.
 
 **Note:**
 For anonymity the figures below have been adjusted.

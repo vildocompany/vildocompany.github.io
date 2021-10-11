@@ -23,8 +23,8 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/warehouse-delivery.jpg
-    alt: "Warehouse Delivery Manpower"
-    title: "Warehouse Delivery Manpower"
+    alt: "Warehouse Outbound Analysis"
+    title: "Warehouse Outbound Analysis"
     excerpt: "Optimizing manpower to prepare delivery for items outgoing from warehouse"
     url: https://alvingiovanni.github.io/portfolio/warehouse-delivery/
     btn_class: "btn--primary"

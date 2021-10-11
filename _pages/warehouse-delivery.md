@@ -23,28 +23,19 @@ This analysis are done only with spreadsheet.
 
 # Figuring Out The Problems
 ---
-The most important thing in deciding which area to be kept or handed over, it is important to know the historical delivery volume and potential volume the specific area have. Other than sheer volume, there are other important parameters that needs to be considered. In this analysis, the parameters that are used to decide on the delivery area are:
-1. Volume - sheer delivery and pickup volume
-2. Volume density - delivery volume per km-square
-4. Delivery distance - km per delivery point in average
-5. Pickup distance - km per pickup point in average
-6. Delivery per stop - average volume of delivery per delivery point
-7. Pickup per stop - average volume of pickup per pickup point
+Since there is no specific problems to be solved, there is first a need to figure out what the problems are. One way is to go on site, asking around and observe the site; results were:
+1. Schedule of outgoing items are inconsistent; lack of prior alert to how many items are outgoing from warehouse.
+2. Lack of manpower; outgoing items from warehouse outnumber the manpower of the prep-team. 
+3. Item flow on site is bad.
 
-These parameters are observed per postal code acting as the area segregator.
-![volumeanalysis]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/teaser1.png){: .align-center}
 
-On this case, it is actually not to try to keep the area with the densest volume from company B, because those areas are the most disputed and company B wanted the most. In fact it is to try to find areas where company A have a lot of their own volume, outside of company B's volume, but then still have respectable volume from company B. This way that specific area, for company A, will have a combined volume and density of their own volume and company B's volume. 
-
-# Determining Area
+# Gathering Data
 ---
-From compiling and calculating each parameters into consideration, the area to be kept and handed over are set accordingly. On this project, several scenarios of proposal are given, this is to give options and make negotiation smoother.
+From the 3 suspected problems, it is possible to check problem 1 and 2 by analysing data. Since all items will have their shipment status updated on every process, there will be data on:
+1. when the item goes out of the warehouse - this will help determine the actual timing pattern for outgoing item, when the items are handed over.
+2. when the items are ready to ship - this will show how much time needed for items to be processed, shows if manpower is lacking or not.
 
-![proposalareas]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/teaser2.png){: .align-center}
-
-The resulting proposal are in a form of which postal code are to be kept by company A, and which postal code are to be handed over to company B.
-
-# Determining Area
+# Warehouse Handover Timings
 ---
 To help management and business team visualize the area and get a better understanding of the are in question, the volume and areas are mapped with google mymaps.
 ![map]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/map.png){: .align-center}

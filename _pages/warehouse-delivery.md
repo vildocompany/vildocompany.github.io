@@ -5,7 +5,7 @@ wide: true
 toc: true
 toc_sticky: true
 ---
-# Warehouse Delivery Analysis
+# Warehouse Outbound Analysis
 ---
 In supply chain, having a smooth transition between steps is crucial; each steps' performance will also affect the overall supply chain performance. This is especially true for the transition into last-mile delivery. As the name suggests, last-mile delivery is the the last step (outside of return shipment) to fulfillment; it is the closest to customer and is the deciding factor of how customer perceive the fulfillment quality.
 

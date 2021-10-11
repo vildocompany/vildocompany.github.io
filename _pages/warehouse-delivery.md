@@ -21,12 +21,21 @@ This analysis is done on behalf of company A, trying to figure out what is the k
 This analysis are done only with spreadsheet.
 {: .notice--primary}
 
+# Initial Setup 
+---
+The ongoing operational setups are:
+1. Warehouse will start sending out items starting from 12:00
+2. There will be an hour break on 18:00 - 19:00
+3. Warehouse operation lasts until 24:00
+4. Pre-team manpower is 8 people
+5. Pre-team operational is in 2 shifts, from 11:00-18:00 and 18:00-finish (4 person each shift)
+
 # Figuring Out The Problems
 ---
 Since there is no specific problems to be solved, there is first a need to figure out what the problems are. One way is to go on site, asking around and observe the site; results were:
 1. Schedule of outgoing items are inconsistent; lack of prior alert to how many items are outgoing from warehouse.
 2. Lack of manpower; outgoing items from warehouse outnumber the manpower of the prep-team. 
-3. Item flow on site is bad.
+3. Workflow on site is bad.
 
 
 # Gathering Data
@@ -35,13 +44,20 @@ From the 3 suspected problems, it is possible to check problem 1 and 2 by analys
 1. when the item goes out of the warehouse - this will help determine the actual timing pattern for outgoing item, when the items are handed over.
 2. when the items are ready to ship - this will show how much time needed for items to be processed, shows if manpower is lacking or not.
 
-# Warehouse Handover Timings
+
+# Warehouse Outbound Timings
 ---
-To help management and business team visualize the area and get a better understanding of the are in question, the volume and areas are mapped with google mymaps.
-![map]({{ site.url }}{{ site.baseurl }}/assets/images/fedex/map.png){: .align-center}
+There are 10 days of data that are gathered to be used as a sample; there are only several days of data because the project was initiated recently. From all the 10 days of data compiled into a heatmap of shipments separated by the hour the items are signed as 'out of the warehouse'.
 
 **Note:**
-For anonymity and to keep classified information undisclosed, the area split and volume are not shown, the map is just a dummy.
-{: .notice--warning}
+For anonymity the figures below have been adjusted.
+{: .notice--primary}
 
-The map above represents the overall disputed area, which each polygon represents the area the postal code represents. Pins shows where delivery and pickup points are, and are color coded to show the volume range of each point.
+![map]({{ site.url }}{{ site.baseurl }}/assets/images/warehouse/warehouse-handover.png){: .align-center}
+
+![map]({{ site.url }}{{ site.baseurl }}/assets/images/warehouse/ready-delivery.png){: .align-center}
+
+From the charts above, there are some major take points that are importang:
+1. Even though the warehouse starts operation at 12:00, the first item to sign out of warehouse are almost always at 14:00, 2hrs after warehouse starts operation. This means, the warehouse needs more or less 2hrs to start up their operation and finally send out items.
+2. There are only 35% of total items that sign out before break time (18:00) the rest of the items come out after break time. In less time, (5hrs) 2nd shift prep-team needs to process 2 times more volume compared to 1st shift prep-team (6hrs). 
+3. 

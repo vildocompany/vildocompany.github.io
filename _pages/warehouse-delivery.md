@@ -5,17 +5,17 @@ wide: true
 toc: true
 toc_sticky: true
 ---
-# Warehouse Delivery Manpower
+# Warehouse Delivery Analysis
 ---
-For companies that offer delivery or courier services, knowing the areas where they do their delivery is essential. Determining which areas are dense with customers and which aren't, and which areas that give more opportunity and growth, will help the company reduce cost and improve revenue.
+In supply chain, having a smooth transition between steps is crucial; each steps' performance will also affect the overall supply chain performance. This is especially true for the transition into last-mile delivery. As the name suggests, last-mile delivery is the the last step (outside of return shipment) to fulfillment; it is the closest to customer and is the deciding factor of how customer perceive the fulfillment quality.
 
 **Note:**
 For anonymity and to keep classified information undisclosed, the companies name are gonna be replaced and the data/analysis results will be censored.
 {: .notice--warning}
 
-On this case, a delivery company (A) is acting as a 4th-party logistic for another company (B). Both companies are operating on the same general area but have split delivery area for a long time; company A handles more area than company B. However, company B wants to increase their own operation size, thus company B proposes to take over specific areas from company A. Even though it is a 'proposal', company A as a 4th-party have no option but to accept; however is trying to counter propose which area to be handed over.
+On this case, a delivery company (A) is acting as a 3rd-party logistic for an ecommerce platform. They got responsibility to process all the outgoing items from one of the ecommerce's warehouse; from when items checkouts from the warehouse to delivering it to customer's doorsteps. However, company A's team that are in charged of transitioning items that checkouts from the warehouse and prepare them for delivery, are overwhelmed in the first day; the team was falling behind and as a result items are shipped late waiting for the prep-team to finish their work. Clearly, there is something wrong with how the team is handling their work; and company A is trying to figure out what the problem(s) is(are) and how to solve them.
 
-This analysis is done on behalf of company A, trying to find the best delivery area split for them; considering the delivery volume they get from company B and their own delivery volume on the specific area.
+This analysis is done on behalf of company A, trying to figure out what is the key problem that is holding the prep-team back, and what are the possible solutions to fix the problem and kick-start the prep-team's performance; to not hold back the entire supply chain.
 
 **Note:**
 This analysis are done only with spreadsheet.

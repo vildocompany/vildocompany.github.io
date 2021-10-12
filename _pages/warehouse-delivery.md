@@ -24,7 +24,7 @@ This analysis are done only with spreadsheet.
 # Initial Setup 
 ---
 The ongoing operational setups are:
-1. Warehouse will start sending out items starting from 12:00
+1. Warehouse starts operation at 12:00
 2. There will be an hour break on 18:00 - 19:00
 3. Warehouse operation lasts until 24:00
 4. Pre-team manpower is 8 people
@@ -42,8 +42,8 @@ Since there is no specific problems to be solved, there is first a need to figur
 # Gathering Data
 ---
 From the 3 suspected problems, it is possible to check problem 1 and 2 by analysing data. Since all items will have their shipment status updated on every process, there will be data on:
-1. when the item goes out of the warehouse - this will help determine the actual timing pattern for outgoing item, when the items are handed over.
-2. when the items are ready to ship - this will show how much time needed for items to be processed, shows if manpower is lacking or not.
+1. when items goes out of the warehouse - this will help determine the actual timing pattern for outgoing item, when the items are handed over.
+2. when items are ready to ship - this will show how much time needed for items to be processed, shows if manpower is lacking or not.
 
 
 # Warehouse Outbound Timings
@@ -58,7 +58,25 @@ For anonymity the figures below have been adjusted.
 
 ![map]({{ site.url }}{{ site.baseurl }}/assets/images/warehouse/ready-delivery.png){: .align-center}
 
-From the charts above, there are some major take points that are importang:
-1. Even though the warehouse starts operation at 12:00, the first item to sign out of warehouse are almost always at 14:00, 2hrs after warehouse starts operation. This means, the warehouse needs more or less 2hrs to start up their operation and finally send out items.
-2. There are only 35% of total items that sign out before break time (18:00) the rest of the items come out after break time. In less time, (5hrs) 2nd shift prep-team needs to process 2 times more volume compared to 1st shift prep-team (6hrs). 
-3. 
+From the charts above, there are some major take points that are important:
+1. First item to sign out of warehouse is 2hrs after warehouse starts operation.
+2. Prep-team needs 2hrs to after the first item signed out of warehouse to finish preparing and processing items.
+3. There are only 35% of total items that sign out before break time (18:00) the rest of the items came out after break time. In less time, (5hrs) 2nd shift prep-team needs to process 2 times more volume compared to 1st shift prep-team (6hrs). 
+4. After break, 19:00 - 21:00, is where most of the items are signed out; around 50% of the daily volume is allocated in this 3 hours.
+5. After day 3, prep-team starts to finish work later and later; field staff said that they are exhausted from overworking the earlier nights.
+6. At worst, prep-team finished their work the next morning at 09:00 AM, and delays delivery by 2 hours, because delivery starts at 07:00 AM.
+
+
+# Manpower Problem
+Analysing the timings of items signing out of warehouse and the timing of items being process and prepped, shows that theres clearly a lack of manpower; or to be more precise there is manpower allocation problems:
+1. Even though shift 2 volume is double the volume of shift 1, but the amount of manpower available for the prep-team is the same for either shift. 
+2. Shift 1 team starts their shift at 10:00, when the first item that will sign out of the warehouse is actually in 4 hours at 14:00. This is alot of manpower wasted.
+Overall, the allocation of manpower is totally off timing compared to the timings of items signing out of warehouse.
+
+# Solution
+The clear solution here is to move allocate manpower properly, instead of dividing both shifts as equal number of people, shift 1 should have half the amount of people compare to shift 2; just as what the items volume. So from the 8 manpower, shift 1 should only have 3 people, and shift 2 should have 5 people.
+
+Schedules for the shifts is also detrimental. Since the first items to sign out of the warehouse are usually around 14:00, shift 1 should at least start working around 13:00 and shift 2 should start their shift 19:00. If counting each shift to last 8hrs of work; shift 1 would be 13:00 - 21:00; shift 2 would be 19:00 - 01:00. The shifts being scheduled like this would allow both shifts to be working on the most busy hours; when most of the items would sign out of the warehouse (19:00 - 21-00).
+
+# Results
+Solutions above have been implemented and the results shows that the prep-team is no longer overwhelmed and no longer performing poorly. It also spare the prep-team from exhaustion. Finishing on time also makes sure that the delivery the next morning won't be delayed, because all items are in ready to ship condition.

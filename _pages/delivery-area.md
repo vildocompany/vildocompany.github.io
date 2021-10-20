@@ -10,7 +10,7 @@ toc_sticky: true
 For companies that offer delivery or courier services, knowing the areas where they do their delivery is essential. Determining which areas are dense with customers and which aren't, and which areas that give more opportunity and growth, will help the company reduce cost and improve revenue.
 
 **Note:**
-For anonymity and to keep classified information undisclosed, the companies name are gonna be replaced and the data/analysis results will be censored.
+Data has been adjusted for the sake of aninomity.
 {: .notice--warning}
 
 On this case, a delivery company (A) is acting as a 4th-party logistic for another company (B). Both companies are operating on the same general area but have split delivery area for a long time; company A handles more area than company B. However, company B wants to increase their own operation size, thus company B proposes to take over specific areas from company A. Even though it is a 'proposal', company A as a 4th-party have no option but to accept; however is trying to counter propose which area to be handed over.

@@ -8,7 +8,7 @@ header:
   image: /assets/images/splash-background2.png
 
 feature_row:
-  - image_path: /assets/images/delivery-area.jpg
+  - image_path: /assets/images/Tableau_Logo.png
     alt: "Data Visualization With Tableau"
     title: "Tableau - Data Visualization"
     excerpt: "Examples of data visualization using Tableau."

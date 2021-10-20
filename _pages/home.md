@@ -71,3 +71,6 @@ Now, I am in an endeavor to advance my data analysis skill and career.
 {: style="text-align: center;"}
 
 **Location:** Jakarta, Indonesia
+
+
+<iframe seamless frameborder="0" src="RevenueReport_16347372621890/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    

@@ -8,6 +8,13 @@ header:
   image: /assets/images/splash-background2.png
 
 feature_row:
+  - image_path: /assets/images/delivery-area.jpg
+    alt: "Data Visualization With Tableau"
+    title: "Tableau - Data Visualization"
+    excerpt: "Examples of data visualization using Tableau."
+    url: https://alvingiovanni.github.io/portfolio/data-visualization-with-tableau/
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
   - image_path: /assets/images/data-analysis.jpg
     alt: "Data Analysis"
     title: "E-commerce Churn Analysis"

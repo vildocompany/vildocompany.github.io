@@ -10,7 +10,7 @@ toc_sticky: true
 In supply chain, having a smooth transition between steps is crucial; each steps' performance will also affect the overall supply chain performance. This is especially true for the transition into last-mile delivery. As the name suggests, last-mile delivery is the the last step (outside of return shipment) to fulfillment; it is the closest to customer and is the deciding factor of how customer perceive the fulfillment quality.
 
 **Note:**
-For anonymity and to keep classified information undisclosed, the companies name are gonna be replaced and the data/analysis results will be censored.
+Data has been adjusted for the sake of aninomity.
 {: .notice--warning}
 
 On this case, a delivery company (A) is acting as a 3rd-party logistic for an ecommerce platform. Company A's responsibility is to process all the outgoing items from one of the ecommerce's warehouse; from when items checkouts from the warehouse to delivering it to customer's doorsteps. However, company A's team that are in charged of transitioning items that checkouts from the warehouse and prepare them for delivery, are overwhelmed in the first day; the team was falling behind and as a result items are shipped late waiting for the prep-team to finish their work. Clearly, there is something wrong with how the team is handling their work; and company A is trying to figure out what the problem(s) is(are) and how to solve them.

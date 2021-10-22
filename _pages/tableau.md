@@ -20,3 +20,5 @@ Data has been adjusted for the sake of aninomity.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/RevenueReport_16347372621890/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '1000' scrolling='yes' ></iframe>{: .align-center}
 
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/OperationDashboard_16347371084910/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '1000' scrolling='yes' ></iframe>{: .align-center}

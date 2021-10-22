@@ -1,8 +1,9 @@
 ---
 permalink: /portfolio/data-visualization-with-tableau/
 title: " "
+layout: splash
 wide: true
-toc: true
+toc: false
 toc_sticky: true
 ---
 # Tableau - Data Visualization

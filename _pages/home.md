@@ -48,7 +48,7 @@ feature_row:
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/test.png){: .align-left}
 # About Me
 ---
-Hi! My name is Alvin and I am an engineer that is passionate about data. For the past several years, I have been fortunate enough to have worked in various positions and industries. In construction I was needed to collaborate with a wide variety of individuals and groups; in logistics I learnt multitude types of tasks; in both I was needed to analyse and present ideas to support the business. Although none of those positions are explicitly ‘analyst’, I have been working closely with data and analytical work; cultivating my passion in data and analysis.
+Hi! My name is Alvin and I am an engineer that is passionate about data. For the past several years, I have been fortunate enough to have worked in various positions and industries. In construction I was needed to collaborate with a wide variety of individuals and groups; in logistics I was responsible for multitude types of tasks; in both I was needed to gather data, analyse, and present ideas to support the business. Although none of those positions are explicitly ‘analyst’, I have been working closely with data and analytical work; cultivating my passion in data and analysis.
 
 Now, I am in an endeavor to advance my data analysis skill and career.
 

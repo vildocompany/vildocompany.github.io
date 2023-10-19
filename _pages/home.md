@@ -46,6 +46,7 @@ feature_row:
 ---
 ---
 # About Me
+{: style="text-align: center;"}
 ---
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/test.png){: .align-left}
 

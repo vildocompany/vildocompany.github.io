@@ -45,10 +45,15 @@ feature_row:
     btn_label: "Learn more"
 ---
 ---
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/test.png){: .align-left}
 # About Me
 ---
-As a highly motivated data analyst professional, I have great experiences in providing innovative solutions and driving measurable results in a variety of settings with data. With a proven track record of process and efficiency improvement, I possess exceptional analytical skills, a keen eye for detail, and a deep understanding of business operations. As a result-oriented problem solver, I excel at analyzing complex data sets, developing effective strategies, and delivering solutions that drive growth and success. With a demonstrated ability to quickly adapt to changing environments, I am confident in my ability to excel in any role and bring a valuable perspective to any organization.
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/test.png){: .align-left}
+
+As a highly motivated data analyst professional, I have great experiences in providing innovative solutions and driving measurable results in a variety of settings with data. 
+
+With a proven track record of process and efficiency improvement, I possess exceptional analytical skills, a keen eye for detail, and a deep understanding of business operations. 
+
+As a result-oriented problem solver, I excel at analyzing complex data sets, developing effective strategies, and delivering solutions that drive growth and success. With a demonstrated ability to quickly adapt to changing environments, I am confident in my ability to excel in any role and bring a valuable perspective to any organization.
 
 <Body>   
 <br>

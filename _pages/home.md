@@ -1,3 +1,12 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XTY9FB7TVT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XTY9FB7TVT');
+</script>
 ---
 permalink: /
 hidden: true
@@ -45,18 +54,6 @@ feature_row:
     btn_label: "Learn more"
 ---
 ---
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XTY9FB7TVT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XTY9FB7TVT');
-</script>
-</head>
-
 # About Me
 {: style="text-align: center;"}
 ---

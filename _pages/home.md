@@ -1,3 +1,12 @@
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MHZZMVGT');</script>
+<!-- End Google Tag Manager -->
+</head>
 ---
 permalink: /
 hidden: true
@@ -56,7 +65,11 @@ With a proven track record of process and efficiency improvement, I possess exce
 
 As a result-oriented problem solver, I excel at analyzing complex data sets, developing effective strategies, and delivering solutions that drive growth and success. With a demonstrated ability to quickly adapt to changing environments, I am confident in my ability to excel in any role and bring a valuable perspective to any organization.
 
-<Body>   
+<Body> 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZZMVGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <br>
 <br>
 </Body>   

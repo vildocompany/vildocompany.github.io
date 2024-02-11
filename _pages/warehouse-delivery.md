@@ -1,6 +1,6 @@
 ---
 permalink: /portfolio/warehouse-delivery/
-title: " "
+title: "Warehouse Delivery"
 wide: true
 toc: true
 toc_sticky: true

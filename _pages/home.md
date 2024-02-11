@@ -69,10 +69,6 @@ With a proven track record of process and efficiency improvement, I possess exce
 As a result-oriented problem solver, I excel at analyzing complex data sets, developing effective strategies, and delivering solutions that drive growth and success. With a demonstrated ability to quickly adapt to changing environments, I am confident in my ability to excel in any role and bring a valuable perspective to any organization.
 
 <Body> 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZZMVGT"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <br>
 <br>
 </Body>   
